@@ -12,7 +12,7 @@ const Header = () => {
         <div className="grow"></div>
         <div className="flex items-end gap-6 md:gap-10 lg:gap-12 -my-[4px] lg:-my-1">
           <Link
-            href="/#"
+            href="/about"
             className="font-hrot text-2xs md:text-xs lg:text-sm"
           >
             ABOUT
