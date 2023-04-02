@@ -4,24 +4,30 @@ import Link from 'next/link';
 const Header = () => {
   return (
     <div className="fixed z-50 w-screen px-6 lg:px-12 bg-white">
-      <div className="h-5 md:h-6 lg:h-8"></div>
-      <div className="flex items-start">
+      <div className="h-5 md:h- lg:h-4"></div>
+      <div className="flex items-center">
         <Link href="/">
-          <CustomImage src="/images/logo_joon.png" className="h-4 md:h-5 lg:h-6 w-auto" />
+          <CustomImage src="/images/inblog_logo.png" className="h-8 md:h-9 lg:h-10 w-auto" />
         </Link>
         <div className="grow"></div>
-        <div className="flex items-end gap-6 md:gap-10 lg:gap-12 -my-[4px] lg:-my-1">
-          <Link
-            href="/about"
-            className="font-hrot text-2xs md:text-xs lg:text-sm"
-          >
-            ABOUT
-          </Link>
+        <div className="flex gap-12 md:gap-14 lg:gap-16">
           <Link
             href="/contact"
-            className="font-hrot text-2xs md:text-xs lg:text-sm"
+            className="text-tiny md:text-base lg:text-lg py-1 "
           >
-            CONTACT
+            Contact
+          </Link>
+          <Link
+            href="/#"
+            className="text-tiny md:text-base lg:text-lg py-1 -mr-8"
+          >
+            Sign in
+          </Link>
+          <Link
+            href="/#"
+            className="text-tiny md:text-base lg:text-lg text-white border-solid bg-black px-8 py-1 rounded-md"
+          >
+            Free trial
           </Link>
         </div>
       </div>

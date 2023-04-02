@@ -34,210 +34,35 @@ const Page = () => {
             </div>
           </div>
         </div>
-        <div>
-          <div className="h-12 lg:h-16" />
-          <CustomImage src="/images/scooter_main.jpeg" className="w-screen lg:px-12" />
-          <div className="h-8 lg:h-10" />
-          <div className="px-6 lg:px-12">
-            <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">SCOOTER</div>
-              <div className="text-xs lg:text-sm">2021</div>
+        <div className="grow" />
+        <div className="w-full bg-black text-white px-6 lg:px-12">
+          <div className="h-4"></div>
+          <div className="flex">
+            <div className="flex text-sm lg:text-tiny font-regular">
+              Copyright © 2023 Inblog. All rights reserved.  | &nbsp;
+              <Link
+                href="https://www.freeprivacypolicy.com/live/0082aab2-a8ea-437e-b0e8-8aafebc0514b"
+                target="_blank"
+                className=""
+              >
+                Terms & Conditions  | &nbsp;
+              </Link>
+              <Link
+                href="https://www.freeprivacypolicy.com/live/80f4aeef-fc29-48ee-80e5-d6531bd2c4bf"
+                target="_blank"
+                className=""
+              >
+                Privacy Policy
+              </Link>
             </div>
-            <div className="h-3" />
-            <div className="font-light">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>
-            <div className="h-6" />
-            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">See More →</div>
-            <div className="h-20" />
-            <div className="divide-y divide-black opacity-40">
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div className="h-4 lg:h-6" />
-          <CustomImage src="/images/wherewework_main.png" className="w-screen lg:px-12" />
-          <div className="h-8 lg:h-10" />
-          <div className="px-6 lg:px-12">
-            <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">WHEREWEWORK</div>
-              <div className="text-xs lg:text-sm">2023</div>
-            </div>
-            <div className="h-3" />
-            <div className="font-light">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>
-            <div className="h-6" />
-            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">See More →</div>
-            <div className="h-20" />
-          </div>
-        </div>
-        <div>
-          <CustomImage src="/images/overrunning_main.png" className="w-screen lg:px-12" />
-          <div className="h-8 lg:h-10" />
-          <div className="px-6 lg:px-12">
-            <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">OVERRUNNING</div>
-              <div className="text-xs lg:text-sm">2022</div>
-            </div>
-            <div className="h-3" />
-            <div className="font-light">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>
-            <div className="h-6" />
-            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">See More →</div>
-            <div className="h-20" />
-          </div>
-        </div>
-        <div>
-          <CustomImage src="/images/cafemoodae_main.jpeg" className="w-screen lg:px-12" />
-          <div className="h-8 lg:h-10" />
-          <div className="px-6 lg:px-12">
-            <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">Café MOODAE</div>
-              <div className="text-xs lg:text-sm">2022</div>
-            </div>
-            <div className="h-3" />
-            <div className="font-light">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>
-            <div className="h-6" />
-            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">See More →</div>
-            <div className="h-20" />
-            <div className="divide-y divide-black opacity-40">
-              <div></div>
-              <div></div>
+            <div className="grow"></div>
+            <div className="flex">
+              <Link href="/">
+                <CustomImage src="/images/twitter_logo.png" className="h-4 w-auto mt-1" />
+              </Link>
             </div>
           </div>
-        </div>
-        <div>
-          <CustomImage src="/images/inblog_main.png" className="w-screen lg:px-12" />
-          <div className="px-6 lg:px-12">
-            <div className="divide-y divide-black opacity-40">
-                <div></div>
-                <div></div>
-            </div>
-            <div className="h-8 lg:h-10" />
-            <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">inblog</div>
-              <div className="text-xs lg:text-sm">2023</div>
-            </div>
-            <div className="h-3" />
-            <div className="font-light">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>
-            <div className="h-6" />
-            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">See More →</div>
-            <div className="h-20" />
-            <div className="divide-y divide-black opacity-40">
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-        <div>
-        <div className="h-4 lg:h-6" />
-          <CustomImage src="/images/font_main.jpeg" className="w-screen lg:px-12" />
-          <div className="px-6 lg:px-12">
-            <div className="divide-y divide-black opacity-40">
-                <div></div>
-                <div></div>
-            </div>
-            <div className="h-8 lg:h-10" />
-            <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">KOREAN TYPEFACE</div>
-              <div className="text-xs lg:text-sm">2021</div>
-            </div>
-            <div className="h-3" />
-            <div className="font-light">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>
-            <div className="h-6" />
-            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">See More →</div>
-            <div className="h-20" />
-          </div>
-        </div>
-        <div>
-          <CustomImage src="/images/rhetoric_main.jpeg" className="w-screen lg:px-12" />
-          <div className="h-8 lg:h-10" />
-          <div className="px-6 lg:px-12">
-            <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">rhetoric</div>
-              <div className="text-xs lg:text-sm">2023</div>
-            </div>
-            <div className="h-3" />
-            <div className="font-light">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>
-            <div className="h-6" />
-            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">See More →</div>
-            <div className="h-20" />
-          </div>
-        </div>
-        <div>
-          <CustomImage src="/images/rhetoricandkim_main.png" className="w-screen lg:px-12" />
-          <div className="h-8 lg:h-10" />
-          <div className="px-6 lg:px-12">
-            <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">rhetoric</div>
-              <div className="text-xs lg:text-sm">2023</div>
-            </div>
-            <div className="h-3" />
-            <div className="font-light">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>
-            <div className="h-6" />
-            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">See More →</div>
-            <div className="h-20" />
-          </div>
-        </div>
-        <div>
-          <CustomImage src="/images/rhetoricfrance_main.png" className="w-screen lg:px-12" />
-          <div className="h-8 lg:h-10" />
-          <div className="px-6 lg:px-12">
-            <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">rhetoric</div>
-              <div className="text-xs lg:text-sm">2023</div>
-            </div>
-            <div className="h-3" />
-            <div className="font-light">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>
-            <div className="h-6" />
-            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">See More →</div>
-            <div className="h-20" />
-            <div className="divide-y divide-black opacity-40">
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div className="h-4 lg:h-6" />
-          <CustomImage src="/images/illustration_main.png" className="w-screen lg:px-12" />
-          <div className="px-6 lg:px-12">
-          <div className="divide-y divide-black opacity-40">
-              <div></div>
-              <div></div>
-            </div>
-            <div className="h-8 lg:h-10" />
-            <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">DO NOT DISTURB ME</div>
-              <div className="text-xs lg:text-sm">2023</div>
-            </div>
-            <div className="h-3" />
-            <div className="font-light">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>
-            <div className="h-6" />
-            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">See More →</div>
-            <div className="h-20" />
-          </div>
-        </div>
-        <div>
-          <CustomImage src="/images/photo_main.png" className="w-screen lg:px-12" />
-          <div className="px-6 lg:px-12">
-            <div className="h-8 lg:h-10" />
-            <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">PHOTOs</div>
-              <div className="text-xs lg:text-sm">2023</div>
-            </div>
-            <div className="h-3" />
-            <div className="font-light">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>
-            <div className="h-6" />
-            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">See More →</div>
-            <div className="h-20" />
-            <div className="divide-y divide-black opacity-40">
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-        <div className="h-36" />
-        <div className="text-center text-xs md:text-sm lg:text-base">
-          Copyright © IM SEONGJOON. All rights Reserved.
+          <div className="h-10"></div>
         </div>
       </div>
     </div>

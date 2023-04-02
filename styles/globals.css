@@ -2,29 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: "hrot";
-    font-weight: 500;
-    src: url("../public/assets/HrotBasic-Medium.otf");
-}
-
-@font-face {
-    font-family: "hrot";
-    font-weight: 600;
-    src: url("../public/assets/HrotBasic-SemiBold.otf");
-}
-
-@font-face {
-    font-family: "hrot";
-    font-weight: 700;
-    src: url("../public/assets/HrotBasic-Bold.otf");
-}
-
-@font-face {
-    font-family: "hrot";
-    font-weight: 900;
-    src: url("../public/assets/HrotBasic-Black.otf");
-}
 
 :root {
   --max-width: 1100px;

@@ -9,9 +9,6 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {fontFamily: {
-      hrot: ["hrot","sans-serif"],
-    }},
     fontSize: {
       '2xs': '.625rem',
       'xs': '.75rem',
