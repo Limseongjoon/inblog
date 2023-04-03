@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {fontFamily: {
       galano: ["galano", "sans-serif"],
-      sourceserifpro: ["source serif pro", "serif"],
+      SourceSerifPro: ["Source Serif Pro", "serif"],
     }},
     fontSize: {
       '2xs': '.625rem',

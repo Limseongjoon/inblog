@@ -33,16 +33,16 @@ const Page = () => {
             <div className="h-8" />
             <Link
               href="/#"
-              className="font-normal text-tiny md:text-base lg:text-xl text-white bg-black px-28 py-3 rounded-full"
+              className="font-light text-tiny md:text-base lg:text-xl text-white bg-black px-16 py-2 rounded-full"
               >
               Get Started for Free
             </Link>
             <div className="h-14 sm:h-16" />
-            <CustomImage src="/images/searchconsole.gif" className="w-10/12 md:w-9/12 lg:w-1/2" />
+            <CustomImage src="/images/searchconsole.gif" className="w-10/12 md:w-9/12 lg:w-2/3 xl:w-1/2" />
             <div className="h-8 sm:h-12 md:h-14 lg:h-48" />
             <CustomImage src="/images/blogexample.png" className="w-10/12 md:w-5/6 lg:w-4/6 rounded-2xl shadow-2xl" />
           </div>
-          <div className="h-48" />
+          <div className="h-56" />
           <div className="lg:px-48">
             <div className="self-start">
               <div className="text-[#10A42A] font-medium">For Your Business</div>
@@ -54,7 +54,7 @@ const Page = () => {
             <div className="h-16" />
             <div className="flex flex-col gap-3 lg:flex-row lg:gap-4 w-full">
               <div className="w-full rounded-md text-black px-12 md:px-14 py-8 border-gray-200 border-solid border-2 shadow-md bg-white">
-                <div className="text-2xl md:text-3xl lg:text-3xl">Gain More Leads</div>
+                <div className="font-SourceSerifPro text-2xl md:text-3xl lg:text-3xl">Gain More Leads</div>
                 <div className="h-4" />
                 <div className="text-gray-500 font-light">B2B marketers running a blog gain 67% more leads than those who do not run a business blog.</div>
                 <div className="h-4" />
@@ -66,7 +66,7 @@ const Page = () => {
               </Link>
               </div>
               <div className="w-full rounded-md text-black px-12 md:px-14 py-8 border-gray-200 border-solid border-2 shadow-md bg-white">
-                <div className="text-2xl md:text-3xl lg:text-3xl">Higher Close Rate</div>
+                <div className="font-SourceSerifPro text-2xl md:text-3xl lg:text-3xl">Higher Close Rate</div>
                 <div className="h-4" />
                 <div className="text-gray-500 font-light">SEO leads have a 14.6% close rate compared to only 1.7% for outbound leads.</div>
                 <div className="h-4" />
@@ -81,7 +81,7 @@ const Page = () => {
             <div className="h-4" />
             <div className="flex flex-col gap-3 lg:flex-row lg:gap-4 w-full">
             <div className="w-full rounded-md text-black px-12 md:px-14 py-8 border-gray-200 border-solid border-2 shadow-md bg-white">
-                <div className="text-2xl md:text-3xl lg:text-3xl">Higher Organic CTR</div>
+                <div className="font-SourceSerifPro text-2xl md:text-3xl lg:text-3xl">Higher Organic CTR</div>
                 <div className="h-4" />
                 <div className="text-gray-500 font-light">Organic search offers higher click-through rates than paid search ads. (27.6% CTR for organic vs 3.17% CTR for paid)</div>
                 <div className="h-4" />
@@ -93,7 +93,7 @@ const Page = () => {
               </Link>
               </div>
               <div className="w-full rounded-md text-black px-12 md:px-14  py-8 border-gray-200 border-solid border-2 shadow-md bg-white">
-                <div className="text-2xl md:text-3xl lg:text-3xl">Critical Sales Funnel</div>
+                <div className="font-SourceSerifPro text-2xl md:text-3xl lg:text-3xl">Critical Sales Funnel</div>
                 <div className="h-4" />
                 <div className="text-gray-500 font-light">55% of B2B marketers consider articles as the most successful type of content for moving possible clients through the sales funnel.</div>
                 <div className="h-4" />
