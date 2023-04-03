@@ -25,7 +25,7 @@ const Header = () => {
           </Link>
           <Link
             href="/#"
-            className="text-tiny md:text-base lg:text-lg text-white border-solid bg-black px-8 py-1 rounded-md"
+            className="text-tiny md:text-base lg:text-lg text-white border-solid bg-black px-8 py-1 rounded-full"
           >
             Free trial
           </Link>

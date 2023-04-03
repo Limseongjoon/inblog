@@ -21,7 +21,7 @@ const Page = () => {
           I will get back to you as soon as possible.
           </div>
         <div className="h-6" />
-        <div className="w-7/12 bg-[#F4F4F4] px-4 lg:px-16">
+        <div className="w-7/12 lg:w-6/12 bg-[#F4F4F4] px-4 lg:px-16">
           <div className="lg:h-4"></div>
           <div className="flex flex-col w-full">
             <div className="flex flex-col gap-3 lg:flex-row lg:gap-4 w-full">
