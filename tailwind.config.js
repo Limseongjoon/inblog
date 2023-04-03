@@ -9,6 +9,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    extend: {fontFamily: {
+      galano: ["galano", "sans-serif"],
+      sourceserifpro: ["source serif pro", "serif"],
+    }},
     fontSize: {
       '2xs': '.625rem',
       'xs': '.75rem',

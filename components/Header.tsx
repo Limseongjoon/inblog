@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <div className="fixed z-50 w-screen px-6 lg:px-12 bg-white">
+    <div className="fixed z-50 w-screen px-6 lg:px-12 bg-[#F4F4F4]">
       <div className="h-5 md:h- lg:h-4"></div>
       <div className="flex items-center">
         <Link href="/">
