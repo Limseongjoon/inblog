@@ -10,8 +10,8 @@ module.exports = {
   ],
   theme: {
     extend: {fontFamily: {
-      galano: ["galano", "sans-serif"],
       SourceSerifPro: ["Source Serif Pro", "serif"],
+      Montserrat: ["Montserrat", "sans-serif"],
     }},
     fontSize: {
       '2xs': '.625rem',
