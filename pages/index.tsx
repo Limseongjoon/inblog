@@ -18,7 +18,7 @@ const Page = () => {
             <div className="h-14"></div>
             <Link
               href="/#"
-              className="font-light text-tiny md:text-base lg:text-xl text-white bg-black px-12 py-2 rounded-full"
+              className="text-tiny md:text-base lg:text-xl text-white bg-black px-10 py-2 rounded-full"
               >
               Create your blog in 1 minute
             </Link>
