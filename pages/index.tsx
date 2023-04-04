@@ -16,31 +16,31 @@ const Page = () => {
             <div className="md:text-xl lg:text-2xl text-center">Inblog provides you SEO-friendly blog infrastructure<br></br>
             to convert more leads into customers.</div>
             <div className="h-14"></div>
-            <div className="flex gap-6 md:gap-8 lg:gap-10">
-              <div className="flex items-center">
-                <CustomImage src="/images/check.png" className="w-4 sm:w-5 h-3 sm:h-4 mr-2" />
-                <span className="font-semibold text-sm sm:text-lg"> 1 Minute</span>
-              </div>
-              <div className="flex items-center">
-                <CustomImage src="/images/check.png" className="w-4 sm:w-5 h-3 sm:h-4 mr-2" />
-                <span className="font-semibold text-sm sm:text-lg"> No credit card required</span>
-              </div>
-              <div className="flex items-center">
-                <CustomImage src="/images/check.png" className="w-4 sm:w-5 h-3 sm:h-4 mr-2" />
-              <span className="font-semibold text-sm sm:text-lg"> Hassle-free</span>
-              </div>
-            </div>
-            <div className="h-8" />
             <Link
               href="/#"
               className="font-light text-tiny md:text-base lg:text-xl text-white bg-black px-12 py-2 rounded-full"
               >
-              Get Started for Free
+              Create your blog in 1 minute
             </Link>
+            <div className="h-8" />
+            <div className="flex gap-6 md:gap-8 lg:gap-10">
+              <div className="flex items-center">
+                <CustomImage src="/images/check.png" className="w-3 sm:w-4 h-2 sm:h-3 mr-2 mb-[1px]" />
+                <span className="font-semibold text-xs sm:text-tiny"> 1 Minute</span>
+              </div>
+              <div className="flex items-center">
+                <CustomImage src="/images/check.png" className="w-3 sm:w-4 h-2 sm:h-3 mr-2 mb-[1px]" />
+                <span className="font-semibold text-xs sm:text-tiny"> No credit card required</span>
+              </div>
+              <div className="flex items-center">
+                <CustomImage src="/images/check.png" className="w-3 sm:w-4 h-2 sm:h-3 mr-2 mb-[1px]" />
+              <span className="font-semibold text-xs sm:text-tiny"> Hassle-free</span>
+              </div>
+            </div>
             <div className="h-14 sm:h-16" />
             <CustomImage src="/images/searchconsole.gif" className="w-10/12 md:w-9/12 lg:w-2/3 xl:w-1/2" />
             <div className="h-8 sm:h-12 md:h-14 lg:h-48" />
-            <CustomImage src="/images/blogexample.png" className="w-10/12 md:w-5/6 lg:w-4/6 rounded-2xl shadow-2xl" />
+            <CustomImage src="/images/blogexample.png" className="w-10/12 md:w-5/6 lg:w-5/6" />
           </div>
           <div className="h-72" />
           <div className="lg:px-48">
@@ -62,7 +62,7 @@ const Page = () => {
                 <div className="text-gray-500 font-light">B2B marketers running a blog gain 67% more leads than those who do not run a business blog.</div>
                 <div className="h-4" />
                 <Link
-                href="/#"
+                href="https://optinmonster.com/blogging-statistics/#:~:text=77%25%20of%20internet%20users%20read,than%20they%20do%20on%20email"
                 className="text-[#10A42A]"
                 >
                 Read More →
@@ -74,7 +74,7 @@ const Page = () => {
                 <div className="text-gray-500 font-light">SEO leads have a 14.6% close rate compared to only 1.7% for outbound leads.</div>
                 <div className="h-4" />
                 <Link
-                href="/#"
+                href="https://optinmonster.com/blogging-statistics/#:~:text=77%25%20of%20internet%20users%20read,than%20they%20do%20on%20email"
                 className="text-[#10A42A]"
                 >
                 Read More →
@@ -89,7 +89,7 @@ const Page = () => {
                 <div className="text-gray-500 font-light">Organic search offers higher click-through rates than paid search ads. (27.6% CTR for organic vs 3.17% CTR for paid)</div>
                 <div className="h-4" />
                 <Link
-                href="/#"
+                href="https://backlinko.com/google-ctr-stats"
                 className="text-[#10A42A]"
                 >
                 Read More →
@@ -101,7 +101,7 @@ const Page = () => {
                 <div className="text-gray-500 font-light">55% of B2B marketers consider articles as the most successful content for moving possible clients through the sales funnel.</div>
                 <div className="h-4" />
                 <Link
-                href="/#"
+                href="https://growthbadger.com/blog-stats/"
                 className="text-[#10A42A]"
                 >
                 Read More →
@@ -148,7 +148,6 @@ const Page = () => {
               </div>
               <div className="h-6 sm:h-10" />
               <div className="font-galano text-3xl lg:text-4xl">Inblog Provides You</div>
-              <div className="h-4" />
               <div className="text-gray-400 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br></br>Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</div>
               <div className="h-24" />
               <div className="flex flex-col lg:flex-row gap-16 lg:gap-36 w-full text-black px-4 py-4 justify-center">
@@ -258,7 +257,7 @@ const Page = () => {
             </Link>
           </div>
         </div>
-        <div className="h-48" />
+        <div className="h-64" />
         <div className="w-full bg-black text-white px-6 lg:px-12">
           <div className="h-4"></div>
           <div className="flex">
@@ -283,7 +282,7 @@ const Page = () => {
             </div>
             <div className="grow"></div>
             <div className="flex">
-              <Link href="/">
+              <Link href="https://twitter.com/inblog_ai">
                 <CustomImage src="/images/twitter_logo.png" className="h-4 w-auto mt-1" />
               </Link>
             </div>
