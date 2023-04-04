@@ -33,7 +33,7 @@ const Page = () => {
             <div className="h-8" />
             <Link
               href="/#"
-              className="font-light text-tiny md:text-base lg:text-xl text-white bg-black px-16 py-2 rounded-full"
+              className="font-light text-tiny md:text-base lg:text-xl text-white bg-black px-12 py-2 rounded-full"
               >
               Get Started for Free
             </Link>
@@ -44,10 +44,13 @@ const Page = () => {
           </div>
           <div className="h-56" />
           <div className="lg:px-48">
-            <div className="self-start">
-              <div className="text-[#10A42A] font-medium">For Your Business</div>
-              <div className="h-4" />
-              <div className="font-galano text-2xl md:text-3xl lg:text-4xl">Blog-building a Must?</div>
+            <div className="self-start">   
+              <div className="relative flex py-5 items-center">
+                <div className="text-[#ff4b93] font-medium pr-10">For Your Business</div>
+                <div className="flex-grow border-t border-gray-300"></div>
+              </div>
+              <div className="h-6 sm:h-10" />
+              <div className="font-galano text-3xl lg:text-4xl">Blog-building a Must?</div>
               <div className="h-4" />
               <div className="text-gray-400 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br></br>Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</div>
             </div>
@@ -60,7 +63,7 @@ const Page = () => {
                 <div className="h-4" />
                 <Link
                 href="/#"
-                className="text-[#FF247D]"
+                className="text-[#10A42A]"
                 >
                 Read More →
               </Link>
@@ -72,7 +75,7 @@ const Page = () => {
                 <div className="h-4" />
                 <Link
                 href="/#"
-                className="text-[#FF247D]"
+                className="text-[#10A42A]"
                 >
                 Read More →
               </Link>
@@ -87,7 +90,7 @@ const Page = () => {
                 <div className="h-4" />
                 <Link
                 href="/#"
-                className="text-[#FF247D]"
+                className="text-[#10A42A]"
                 >
                 Read More →
               </Link>
@@ -95,41 +98,54 @@ const Page = () => {
               <div className="w-full rounded-md text-black px-12 md:px-14  py-8 border-gray-200 border-solid border-2 shadow-md bg-white">
                 <div className="font-SourceSerifPro text-2xl md:text-3xl lg:text-3xl">Critical Sales Funnel</div>
                 <div className="h-4" />
-                <div className="text-gray-500 font-light">55% of B2B marketers consider articles as the most successful type of content for moving possible clients through the sales funnel.</div>
+                <div className="text-gray-500 font-light">55% of B2B marketers consider articles as the most successful content for moving possible clients through the sales funnel.</div>
                 <div className="h-4" />
                 <Link
                 href="/#"
-                className="text-[#FF247D]"
+                className="text-[#10A42A]"
                 >
                 Read More →
               </Link>
               </div>
             </div>
-            <div className="h-48" />
+            <div className="h-72" />
             <div className="self-start">
-              <div className="text-[#10A42A] font-medium">To Start a Blog</div>
+              <div className="relative flex py-5 items-center">
+                <div className="text-[#ff4b93] font-medium pr-10">To Start a Blog</div>
+                <div className="flex-grow border-t border-gray-300"></div>
+              </div>
+              <div className="h-6 sm:h-10" />
+              <div className="font-galano text-3xl lg:text-4xl">No Time to Focus on the Essentials</div>
               <div className="h-4" />
-              <div className="font-galano text-2xl md:text-3xl lg:text-4xl">No-Time to Focus on the Contents</div>
-              <div className="h-4" />
-              <div className="text-gray-400 font-light">There are too many abstacles ahead to start and build a blog. <br></br>You are not a builder. Do not waste your precious time. </div>
+              <div className="text-gray-400 font-light">There are too many obstacles ahead to build a blog. <br></br>You are not a blog builder. Do not waste your precious time. </div>
               <div className="h-12" />
-              <div className="flex flex-col lg:flex-row gap-16 lg:gap-48 w-full text-black px-4 py-20 justify-center">
+              <div className="flex flex-col lg:flex-row gap-16 lg:gap-36 w-full text-black px-4 py-20 justify-center">
                 <div className="flex lg:flex-col items-center gap-4">
-                  <div className="w-48 md:w-64 h-48 md:h-64 bg-gray-300"></div>
+                  <div className="w-48 md:w-72 h-auto">
+                    <CustomImage src="/images/illustration_highcost.png" className="w-48 md:w-72 h-auto" />
+                  </div>
                   <div className="text-lg font-semibold lg:text-center">High Cost in<br></br>Blog Building</div>
                 </div>
                 <div className="flex lg:flex-col items-center gap-4">
-                  <div className="w-48 md:w-64 h-48 md:h-64 bg-gray-300"></div>
+                <div className="w-48 md:w-72 h-auto">
+                    <CustomImage src="/images/illustration__notstraightforward.png" className="w-48 md:w-72 h-auto" />
+                  </div>
                   <div className="text-lg font-semibold lg:text-center">Not Straight Forward<br></br>to Contents Marketing</div>
                 </div>
                 <div className="flex lg:flex-col items-center gap-4">
-                  <div className="w-48 md:w-64 h-48 md:h-64 bg-gray-300"></div>
+                <div className="w-48 md:w-72 h-auto">
+                    <CustomImage src="/images/illustration_analytics.png" className="w-48 md:w-72 h-auto" />
+                  </div>
                   <div className="text-lg font-semibold lg:text-center">Difficulties in Linking<br></br>Business Analytics</div>
                 </div>
               </div>
             </div> 
           </div> 
-          <div className="h-36" />
+          <div className="h-48" />
+          <div className="flex flex-col items-center w-screen">
+              <div className="font-galano text-xl md:text-3xl lg:text-5xl">You are Not a Blog-builder</div>
+              <div className="font-galano text-xl md:text-3xl lg:text-5xl">You Need to Focus on Selling Your Product</div>
+          </div>
           <div className="h-48" />
           <div className="flex flex-col items-center w-screen">
               <div className="font-galano text-xl md:text-3xl lg:text-5xl">Focus Your Energy on What Really Matters</div>
