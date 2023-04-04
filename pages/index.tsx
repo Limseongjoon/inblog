@@ -13,7 +13,7 @@ const Page = () => {
             <div className="font-galano text-4xl md:text-6xl lg:text-7xl">Build your <span className="text-[#10A42A]">Blog</span></div>
             <div className="font-galano text-4xl md:text-6xl lg:text-7xl -mt-4 md:-mt-8">on your own Website</div>
             <div className="h-3" />
-            <div className="md:text-xl lg:text-2xl text-center">Inblog provides you SEO-friendly blog infra<br></br>
+            <div className="md:text-xl lg:text-2xl text-center">Inblog provides you SEO-friendly blog infrastructure<br></br>
             to convert more leads into customers.</div>
             <div className="h-14"></div>
             <div className="flex gap-6 md:gap-8 lg:gap-10">
@@ -42,7 +42,7 @@ const Page = () => {
             <div className="h-8 sm:h-12 md:h-14 lg:h-48" />
             <CustomImage src="/images/blogexample.png" className="w-10/12 md:w-5/6 lg:w-4/6 rounded-2xl shadow-2xl" />
           </div>
-          <div className="h-56" />
+          <div className="h-72" />
           <div className="lg:px-48">
             <div className="self-start">   
               <div className="relative flex py-5 items-center">
@@ -109,7 +109,7 @@ const Page = () => {
               </div>
             </div>
             <div className="h-72" />
-            <div className="self-start">
+            <div>
               <div className="relative flex py-5 items-center">
                 <div className="text-[#ff4b93] font-medium pr-10">To Start a Blog</div>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -140,16 +140,122 @@ const Page = () => {
                 </div>
               </div>
             </div> 
+            <div className="h-72" />
+            <div>
+              <div className="relative flex py-5 items-center">
+                <div className="text-[#ff4b93] font-medium pr-10">Our Features</div>
+                <div className="flex-grow border-t border-gray-300"></div>
+              </div>
+              <div className="h-6 sm:h-10" />
+              <div className="font-galano text-3xl lg:text-4xl">Inblog Provides You</div>
+              <div className="h-4" />
+              <div className="text-gray-400 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br></br>Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</div>
+              <div className="h-24" />
+              <div className="flex flex-col lg:flex-row gap-16 lg:gap-36 w-full text-black px-4 py-4 justify-center">
+                <div className="w-48 md:w-72 h-auto"></div>
+                <div className="w-48 md:w-72 h-auto"></div>
+                <div className="w-48 md:w-72 h-auto"></div>
+              </div>
+            </div>
+            <div className="flex flex-col lg:flex-row w-full items-center">
+              <div className="w-full rounded-md text-black px-12 md:px-14 py-8">
+              <div className="font-galano text-2xl lg:text-3xl leading-tight text-[#10A42A]">1</div>
+              <div className="h-4" />
+                <div className="font-galano text-2xl lg:text-3xl leading-tight">Link blog directly<br></br>to your website.</div>
+                <div className="h-4" />
+                <div className="text-gray-500 font-light w-10/12">B2B marketers running a blog gain 67% more leads than those who do not run a business blog.</div>
+              </div>
+              <div className="w-full rounded-md text-black">
+                <CustomImage src="/images/feature_1.png" className="w-full h-auto" />
+              </div>
+            </div>
+            <div className="h-36" />
+            <div className="flex flex-col lg:flex-row w-full items-center gap-24">
+            <div className="w-full rounded-md text-black">
+                <CustomImage src="/images/feature_2.png" className="w-full h-auto" />
+              </div>
+              <div className="w-full rounded-md text-black">
+              <div className="font-galano text-2xl lg:text-3xl leading-tight text-[#10A42A]">2</div>
+              <div className="h-4" />
+                <div className="font-galano text-2xl lg:text-3xl leading-tight">WYSIWIG Editor</div>
+                <div className="h-4" />
+                <div className="text-gray-500 font-light w-10/12">Inblog provides you SEO-friendly infrastructure from building a blog to business analytics you SEO-friendly from building a blog to business analytics you SEO-friendly infrastructure.</div>
+              </div>
+            </div>
+            <div className="h-36" />
+            <div className="flex flex-col lg:flex-row w-full items-center">
+              <div className="w-full rounded-md text-black px-12 md:px-14 py-8">
+              <div className="font-galano text-2xl lg:text-3xl leading-tight text-[#10A42A]">3</div>
+              <div className="h-4" />
+                <div className="font-galano text-2xl lg:text-3xl leading-tight">Guides to write<br></br>SEO-friendly posts.</div>
+                <div className="h-4" />
+                <div className="text-gray-500 font-light w-10/12">Inblog provides you SEO-friendly infrastructure from building a blog to business analytics you SEO-friendly from building a blog to business analytics you SEO-friendly infrastructure.</div>
+              </div>
+              <div className="w-full rounded-md text-black">
+                <CustomImage src="/images/feature_3.png" className="w-full h-auto" />
+              </div>
+            </div>
+            <div className="h-36" />
+            <div className="flex flex-col lg:flex-row w-full items-center gap-24">
+            <div className="w-full rounded-md text-black px-6">
+                <CustomImage src="/images/feature_4.png" className="w-full h-auto" />
+              </div>
+              <div className="w-full rounded-md text-black">
+              <div className="font-galano text-2xl lg:text-3xl leading-tight text-[#10A42A]">4</div>
+              <div className="h-4" />
+                <div className="font-galano text-2xl lg:text-3xl leading-tight">CTA for more leads.</div>
+                <div className="h-4" />
+                <div className="text-gray-500 font-light w-10/12">Inblog provides you SEO-friendly infrastructure from building a blog to business analytics you SEO-friendly from building a blog to business analytics you SEO-friendly infrastructure.</div>
+              </div>
+            </div>
+            <div className="h-72" />
+            <div>
+              <div className="relative flex py-5 items-center">
+                <div className="text-[#ff4b93] font-medium pr-10">Our Features</div>
+                <div className="flex-grow border-t border-gray-300"></div>
+              </div>
+              <div className="h-6 sm:h-10" />
+              <div className="font-galano text-3xl lg:text-4xl">Inblog Provides You</div>
+              <div className="h-4" />
+              <div className="text-gray-400 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br></br>Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</div>
+              <div className="h-24" />
+              <div className="flex flex-col lg:flex-row gap-16 lg:gap-36 w-full text-black px-4 justify-center">
+                <div className="w-48 md:w-72 h-auto"></div>
+                <div className="w-48 md:w-72 h-auto"></div>
+                <div className="w-48 md:w-72 h-auto"></div>
+              </div>
+            </div>
+            <CustomImage src="/images/finallook.png" className="w-full h-auto" />
+            <div className="h-72" />
+            <div>
+              <div className="relative flex py-5 items-center">
+                <div className="text-[#ff4b93] font-medium pr-10">Our Features</div>
+                <div className="flex-grow border-t border-gray-300"></div>
+              </div>
+              <div className="h-6 sm:h-10" />
+              <div className="font-galano text-3xl lg:text-4xl">Inblog Provides You</div>
+              <div className="h-4" />
+              <div className="text-gray-400 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br></br>Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</div>
+              <div className="h-24" />
+              <div className="flex flex-col lg:flex-row gap-16 lg:gap-36 w-full text-black px-4 py-4 justify-center">
+                <div className="w-48 md:w-72 h-auto"></div>
+                <div className="w-48 md:w-72 h-auto"></div>
+                <div className="w-48 md:w-72 h-auto"></div>
+              </div>
+            </div>
+            <CustomImage src="/images/analytics.png" className="w-full h-auto" />
           </div> 
-          <div className="h-48" />
+          <div className="h-72" />
           <div className="flex flex-col items-center w-screen">
-              <div className="font-galano text-xl md:text-3xl lg:text-5xl">You are Not a Blog-builder</div>
-              <div className="font-galano text-xl md:text-3xl lg:text-5xl">You Need to Focus on Selling Your Product</div>
-          </div>
-          <div className="h-48" />
-          <div className="flex flex-col items-center w-screen">
-              <div className="font-galano text-xl md:text-3xl lg:text-5xl">Focus Your Energy on What Really Matters</div>
-              <div className="font-galano text-xl md:text-3xl lg:text-5xl">Let us Handle the Hassles</div>
+            <div className="font-galano text-xl md:text-3xl lg:text-5xl">Focus Your Energy on What Really Matters</div>
+            <div className="font-galano text-xl md:text-3xl lg:text-5xl">Let us Handle the Hassles</div>
+            <div className="h-16" />
+            <Link
+              href="/#"
+              className="font-light text-tiny md:text-base lg:text-xl text-white bg-black px-12 py-2 rounded-full"
+              >
+              Get Started for Free
+            </Link>
           </div>
         </div>
         <div className="h-48" />
@@ -157,20 +263,22 @@ const Page = () => {
           <div className="h-4"></div>
           <div className="flex">
             <div className="flex text-sm lg:text-tiny font-regular">
-              Copyright © 2023 Inblog. All rights reserved.  | &nbsp;
+              Copyright © 2023 Inblog. All rights reserved.&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="mailto:inblog.io@gmail.com">
+              inblog.io@gmail.com</a>&nbsp;&nbsp;|&nbsp;&nbsp;
               <Link
                 href="https://www.freeprivacypolicy.com/live/0082aab2-a8ea-437e-b0e8-8aafebc0514b"
                 target="_blank"
                 className=""
               >
-                Terms & Conditions  | &nbsp;
+                Terms & Conditions&nbsp;&nbsp;|&nbsp;&nbsp;
               </Link>
               <Link
                 href="https://www.freeprivacypolicy.com/live/80f4aeef-fc29-48ee-80e5-d6531bd2c4bf"
                 target="_blank"
                 className=""
               >
-                Privacy Policy
+                Privacy Policy&nbsp;&nbsp;
               </Link>
             </div>
             <div className="grow"></div>
