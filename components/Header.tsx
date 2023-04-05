@@ -1,20 +1,17 @@
 import CustomImage from '../components/CustomImage';
-import Link from 'next/link';
 import { Navbar } from "flowbite-react";
 
 const Header = () => {
   return (
-    <div>
+    <div className="-mt-1 sm:mt-2">
       <Navbar
         fluid={false}
         rounded={false}>
         <Navbar.Brand href="/#">
-          <CustomImage src="/images/inblog_logo.png" className="h-8 lg:h-9 ml-2 w-auto" />
+          <CustomImage src="/images/inblog_logo.png" className="h-8 lg:h-9 ml-3 w-auto" />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <div className="py-1">
-          </div>
           <div className="py-1">
             <Navbar.Link href="/contact">
               Contact

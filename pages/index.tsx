@@ -1,6 +1,7 @@
 import CustomImage from '../components/CustomImage';
 import Header from '../components/Header';
 import Link from 'next/link';
+import Footer from '../components/Footer';
 
 const Page = () => {
   return (
@@ -258,37 +259,7 @@ const Page = () => {
           </div>
         </div>
         <div className="h-64" />
-        <div className="w-full bg-black text-white px-6 lg:px-12">
-          <div className="h-4"></div>
-          <div className="flex">
-            <div className="flex text-sm lg:text-tiny font-regular">
-              Copyright © 2023 Inblog. All rights reserved.&nbsp;&nbsp;|&nbsp;&nbsp;
-              <a href="mailto:inblog.io@gmail.com">
-              inblog.io@gmail.com</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-              <Link
-                href="https://www.freeprivacypolicy.com/live/0082aab2-a8ea-437e-b0e8-8aafebc0514b"
-                target="_blank"
-                className=""
-              >
-                Terms & Conditions&nbsp;&nbsp;|&nbsp;&nbsp;
-              </Link>
-              <Link
-                href="https://www.freeprivacypolicy.com/live/80f4aeef-fc29-48ee-80e5-d6531bd2c4bf"
-                target="_blank"
-                className=""
-              >
-                Privacy Policy&nbsp;&nbsp;
-              </Link>
-            </div>
-            <div className="grow"></div>
-            <div className="flex">
-              <Link href="https://twitter.com/inblog_ai">
-                <CustomImage src="/images/twitter_logo.png" className="h-4 w-auto mt-1" />
-              </Link>
-            </div>
-          </div>
-          <div className="h-10"></div>
-        </div>
+        <Footer />
       </div>
     </div>
   );

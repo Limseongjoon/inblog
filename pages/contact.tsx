@@ -1,10 +1,9 @@
-import CustomImage from '../components/CustomImage';
 import Header from '../components/Header';
-import Link from 'next/link';
+import Footer from '../components/Footer';
 
 const Page = () => {
   return (
-    <div className="h-screen">
+    <div>
       <Header />
       <div className="h-2" />
       <div className="flex flex-col h-screen items-center">
@@ -67,36 +66,8 @@ const Page = () => {
           </div>
         </div>
       </div>
-        <div className="grow" />
-        <div className="w-full bg-black text-white px-6 lg:px-12">
-          <div className="h-4"></div>
-          <div className="flex">
-            <div className="flex text-xs lg:text-sm font-regular">
-              Copyright © 2023 Inblog. All rights reserved.  | &nbsp;
-              <Link
-                href="https://www.freeprivacypolicy.com/live/0082aab2-a8ea-437e-b0e8-8aafebc0514b"
-                target="_blank"
-                className=""
-              >
-                Terms & Conditions  | &nbsp;
-              </Link>
-              <Link
-                href="https://www.freeprivacypolicy.com/live/80f4aeef-fc29-48ee-80e5-d6531bd2c4bf"
-                target="_blank"
-                className=""
-              >
-                Privacy Policy
-              </Link>
-            </div>
-            <div className="grow"></div>
-            <div className="flex">
-              <Link href="/">
-                <CustomImage src="/images/twitter_logo.png" className="h-4 w-auto mt-1" />
-              </Link>
-            </div>
-          </div>
-          <div className="h-10"></div>
-        </div>
+      <div className="grow" />
+      <Footer />
       </div>
     </div>
   );
