@@ -24,7 +24,7 @@ const Header = () => {
           </div>
           <div className="py-1">
             <Navbar.Link href="/#">
-              FreeTrial
+              Free-Trial
             </Navbar.Link>
           </div>
         </Navbar.Collapse>
