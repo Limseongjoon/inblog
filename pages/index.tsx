@@ -11,7 +11,7 @@ const Page = () => {
           <div className="flex flex-col items-center w-screen">
             <div className="h-24 md:h-36" />
             <div className="font-bold text-3xl md:text-6xl lg:text-7xl">Build your <span className="text-[#10A42A]">Blog</span></div>
-            <div className="font-bold text-3xl md:text-6xl lg:text-7xl -mt-4 md:-mt-8">on your own Website</div>
+            <div className="font-bold text-3xl md:text-6xl lg:text-7xl -mt-2 md:-mt-8">on your own Website</div>
             <div className="h-1" />
             <div className="text-tiny md:text-xl lg:text-2xl text-center">Provides you SEO-friendly blog<br></br>
             to convert more leads into customers.</div>
