@@ -3,12 +3,11 @@ import { Navbar } from "flowbite-react";
 
 const Header = () => {
   return (
-    <div className="h-0">
       <Navbar>
         <Navbar.Brand href="/#" className="">
           <CustomImage src="/images/inblog_logo.png" className="h-8 lg:h-9 ml-2 w-auto " />
         </Navbar.Brand>
-        <Navbar.Toggle />
+        <Navbar.Toggle/>
         <Navbar.Collapse>
           <div className="py-1">
           </div>
@@ -29,7 +28,6 @@ const Header = () => {
           </div>
         </Navbar.Collapse>
       </Navbar>
-    </div>
   );
 };
 
