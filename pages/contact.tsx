@@ -12,11 +12,11 @@ const Page = () => {
             Contact
           </div>
           <div className="h-4" />
-          <div className="hidden sm:flex text-center font-light md:text-lg text-gray-500">
+          <div className="hidden sm:flex text-center font-light md:text-lg leading-tight sm:leading-none text-gray-500">
           Please feel free to contact me with any questions you may have.<br></br>
           I will get back to you as soon as possible.
           </div>
-          <div className="sm:hidden text-center font-light md:text-lg leading-snug text-gray-500">
+          <div className="sm:hidden text-center font-light md:text-lg leading-tight sm:leading-none text-gray-500">
           Please feel free to contact me<br></br> with any questions you may have.<br></br>
           I will get back to you as soon as possible.
           </div>
