@@ -12,17 +12,17 @@ const Header = () => {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <div className="py-1">
+          <div className="py-1 text-center w-screen">
             <Navbar.Link href="/contact">
               Contact
             </Navbar.Link>
           </div>
-          <div className="py-1">
+          <div className="py-1 text-center w-screen">
             <Navbar.Link href="/#">
               LogIn
             </Navbar.Link>
           </div>
-          <div className="py-1">
+          <div className="py-1 text-center w-screen">
             <Navbar.Link href="/#">
               Free-Trial
             </Navbar.Link>

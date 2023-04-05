@@ -6,17 +6,17 @@ const Page = () => {
     <div>
       <Header />
       <div className="h-2" />
-      <div className="flex flex-col h-screen items-center">
+      <div className="flex flex-col h-screen items-center text-black">
         <div className="h-16 lg:h-24" />
           <div className="font-bold text-2xl lg:text-4xl">
-            Contact us
+            Contact
           </div>
           <div className="h-4" />
-          <div className="hidden sm:flex text-center font-light md:text-lg">
+          <div className="hidden sm:flex text-center font-light md:text-lg text-gray-500">
           Please feel free to contact me with any questions you may have.<br></br>
           I will get back to you as soon as possible.
           </div>
-          <div className="sm:hidden text-center font-light md:text-lg leading-snug">
+          <div className="sm:hidden text-center font-light md:text-lg leading-snug text-gray-500">
           Please feel free to contact me<br></br> with any questions you may have.<br></br>
           I will get back to you as soon as possible.
           </div>
