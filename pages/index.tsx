@@ -9,7 +9,7 @@ const Page = () => {
       <div>
         <div className="flex flex-col items-center px-6 lg:px-12">
           <div className="flex flex-col items-center w-screen">
-            <div className="h-14 md:h-36" />
+            <div className="h-36 md:h-36" />
             <div className="font-bold text-3xl md:text-6xl lg:text-7xl">Build your <span className="text-[#10A42A]">Blog</span></div>
             <div className="font-bold text-3xl md:text-6xl lg:text-7xl -mt-4 md:-mt-8">on your own Website</div>
             <div className="h-3" />
@@ -39,7 +39,7 @@ const Page = () => {
             </div>
             <div className="h-14 sm:h-16" />
             <CustomImage src="/images/searchconsole.gif" className="w-11/12 md:w-9/12 lg:w-2/3 xl:w-1/2" />
-            <div className=" h-6 sm:h-12 md:h-14 lg:h-48" />
+            <div className="h-24 md:h-14 lg:h-48" />
             <CustomImage src="/images/blogexample.png" className="w-11/12 md:w-5/6 lg:w-5/6" />
           </div>
           <div className="h-24 sm:h-72" />
