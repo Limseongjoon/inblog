@@ -119,7 +119,7 @@ const Page = () => {
               <div className="text-3xl lg:text-4xl leading-tight sm:leading-none">However, building a blog can be challenging</div>
               <div className="h-4" />
               <div className="text-gray-400 font-light leading-snug sm:leading-none">You need to build an SEO-optimized blog and content, and insert CTA buttons for user conversion. You are not a blog builder. Do not waste your precious time.</div>
-              <div className="h-12" />
+              <div className="h-6" />
               <div className="flex flex-col items-center lg:flex-row gap-16 lg:gap-36 w-full text-black px-4 py-20 justify-center">
                 <div className="flex flex-col gap-4">
                   <div className="flex w-64 md:w-72 h-auto">
