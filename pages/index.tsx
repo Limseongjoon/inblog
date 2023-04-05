@@ -7,7 +7,7 @@ const Page = () => {
   return (
     <div className="bg-white text-black">
       <Header />
-      <div>
+      <div className="bg-white text-black">
         <div className="flex flex-col items-center px-6 lg:px-12">
           <div className="flex flex-col items-center w-screen">
             <div className="h-24 md:h-36" />
