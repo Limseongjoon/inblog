@@ -23,7 +23,7 @@ const Page = () => {
               Create your blog in 1 minute
             </Link>
             <div className="h-3 sm:h-6" />
-            <div className="flex gap-4 md:gap-8 lg:gap-10">
+            <div className="flex gap-3 md:gap-8 lg:gap-10">
               <div className="flex items-center">
                 <CustomImage src="/images/check.png" className="w-3 sm:w-4 h-2 sm:h-3  mr-1 sm:mr-2 mb-[1px]" />
                 <span className="text-xs sm:text-tiny text-[#4a4a4a]"> 1 Minute</span>
