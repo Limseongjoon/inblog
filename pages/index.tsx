@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const Page = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white text-black">
       <Header />
       <div>
         <div className="flex flex-col items-center px-6 lg:px-12">
