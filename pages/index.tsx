@@ -10,19 +10,19 @@ const Page = () => {
         <div className="flex flex-col items-center bg-[#F4F4F4] px-6 lg:px-12">
           <div className="flex flex-col items-center w-screen">
             <div className="h-24 md:h-36" />
-            <div className="font-bold text-4xl md:text-6xl lg:text-7xl">Build your <span className="text-[#10A42A]">Blog</span></div>
-            <div className="font-bold text-4xl md:text-6xl lg:text-7xl -mt-4 md:-mt-8">on your own Website</div>
+            <div className="font-bold text-3xl md:text-6xl lg:text-7xl">Build your <span className="text-[#10A42A]">Blog</span></div>
+            <div className="font-bold text-3xl md:text-6xl lg:text-7xl -mt-4 md:-mt-8">on your own Website</div>
             <div className="h-3" />
-            <div className="md:text-xl lg:text-2xl text-center">Inblog provides you SEO-friendly blog infrastructure<br></br>
+            <div className="text-tiny md:text-xl lg:text-2xl text-center">Inblog provides you SEO-friendly blog infrastructure<br></br>
             to convert more leads into customers.</div>
-            <div className="h-14"></div>
+            <div className="h-8 sm:h-14"></div>
             <Link
               href="/#"
               className="text-tiny md:text-base lg:text-xl text-white bg-black px-10 py-2 rounded-full"
               >
               Create your blog in 1 minute
             </Link>
-            <div className="h-8" />
+            <div className="h-4 sm:h-8" />
             <div className="flex gap-6 md:gap-8 lg:gap-10">
               <div className="flex items-center">
                 <CustomImage src="/images/check.png" className="w-3 sm:w-4 h-2 sm:h-3 mr-2 mb-[1px]" />
@@ -38,11 +38,11 @@ const Page = () => {
               </div>
             </div>
             <div className="h-14 sm:h-16" />
-            <CustomImage src="/images/searchconsole.gif" className="w-10/12 md:w-9/12 lg:w-2/3 xl:w-1/2" />
-            <div className="h-8 sm:h-12 md:h-14 lg:h-48" />
-            <CustomImage src="/images/blogexample.png" className="w-10/12 md:w-5/6 lg:w-5/6" />
+            <CustomImage src="/images/searchconsole.gif" className="w-11/12 md:w-9/12 lg:w-2/3 xl:w-1/2" />
+            <div className=" h-6 sm:h-12 md:h-14 lg:h-48" />
+            <CustomImage src="/images/blogexample.png" className="w-11/12 md:w-5/6 lg:w-5/6" />
           </div>
-          <div className="h-72" />
+          <div className="h-24 sm:h-72" />
           <div className="lg:px-48">
             <div className="self-start">   
               <div className="relative flex py-5 items-center">
