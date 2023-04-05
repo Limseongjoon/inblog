@@ -22,11 +22,6 @@ const Header = () => {
               Login
             </Navbar.Link>
           </div>
-          <div className="py-1">
-            <Navbar.Link href="/#">
-              Free trial
-            </Navbar.Link>
-          </div>
         </Navbar.Collapse>
       </Navbar>
     </div>
