@@ -8,7 +8,7 @@ const Page = () => {
     <div className="bg-white text-black">
       <Header />
       <div className="bg-white text-black">
-        <div className="flex flex-col items-center px-6 lg:px-12">
+        <div className="flex flex-col items-center px-6 lg:px-12 text-black">
           <div className="flex flex-col items-center w-screen">
             <div className="h-24 md:h-36" />
             <div className="font-bold text-3xl md:text-6xl lg:text-7xl">Build your <span className="text-[#10A42A]">Blog</span></div>
