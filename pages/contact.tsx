@@ -4,9 +4,9 @@ import Link from 'next/link';
 
 const Page = () => {
   return (
-    <div>
+    <div className="h-screen">
       <Header />
-      <div className="h-12" />
+      <div className="h-2" />
       <div className="flex flex-col h-screen items-center">
         <div className="h-16 lg:h-24" />
           <div className="font-bold text-2xl lg:text-4xl">
