@@ -3,7 +3,7 @@ import { Navbar } from "flowbite-react";
 
 const Header = () => {
   return (
-    <div className="px-1 sm:px-3 lg:px-10 sm:py-1">
+    <div className="fixed px-1 sm:px-3 lg:px-10 sm:py-1">
       <Navbar
         fluid={true}
         className="">
