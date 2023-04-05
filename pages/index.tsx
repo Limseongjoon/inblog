@@ -4,12 +4,12 @@ import Link from 'next/link';
 
 const Page = () => {
   return (
-    <div className="bg-[#F4F4F4] text-black">
+    <div>
       <Header />
       <div>
         <div className="flex flex-col items-center bg-[#F4F4F4] px-6 lg:px-12">
           <div className="flex flex-col items-center w-screen">
-            <div className="h-32 md:h-44" />
+            <div className="h-16 md:h-36" />
             <div className="font-bold text-4xl md:text-6xl lg:text-7xl">Build your <span className="text-[#10A42A]">Blog</span></div>
             <div className="font-bold text-4xl md:text-6xl lg:text-7xl -mt-4 md:-mt-8">on your own Website</div>
             <div className="h-3" />

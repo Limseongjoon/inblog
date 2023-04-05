@@ -4,9 +4,10 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-    "public/*.{html,js}",
+    "./public/**/*.{html,js}",
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/flowbite-react/**/*.js",
   ],
   theme: {
     extend: {fontFamily: {
@@ -28,5 +29,7 @@ module.exports = {
       '7xl': '5rem',
      }
   },
-  plugins: [],
+  plugins: [
+    require("flowbite/plugin")
+  ],
 }

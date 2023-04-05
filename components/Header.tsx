@@ -1,37 +1,34 @@
 import CustomImage from '../components/CustomImage';
-import Link from 'next/link';
+import { Navbar } from "flowbite-react";
 
 const Header = () => {
   return (
-    <div className="fixed z-50 w-screen px-6 lg:px-12 bg-[#F4F4F4]">
-      <div className="h-5 md:h- lg:h-4"></div>
-      <div className="flex items-center">
-        <Link href="/">
-          <CustomImage src="/images/inblog_logo.png" className="h-8 md:h-9 lg:h-10 w-auto" />
-        </Link>
-        <div className="grow"></div>
-        <div className="flex gap-6 md:gap-12">
-          <Link
-            href="/contact"
-            className="text-tiny md:text-base py-1 pr-2"
-          >
-            Contact
-          </Link>
-          <Link
-            href="/#"
-            className="text-tiny md:text-base py-1"
-          >
-            Login
-          </Link>
-          <Link
-            href="/#"
-            className="font-light text-tiny md:text-base text-white border-solid bg-black px-6 py-1 rounded-full"
-          >
-            Free trial
-          </Link>
-        </div>
-      </div>
-      <div className="h-2"></div>
+    <div className="">
+      <Navbar className="">
+        <Navbar.Brand href="/#" className="">
+          <CustomImage src="/images/inblog_logo.png" className="h-8 lg:h-9 ml-2 w-auto " />
+        </Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse>
+          <div className="py-1">
+          </div>
+          <div className="py-1">
+            <Navbar.Link href="/contact">
+              Contact
+            </Navbar.Link>
+          </div>
+          <div className="py-1">
+            <Navbar.Link href="/#">
+              Login
+            </Navbar.Link>
+          </div>
+          <div className="py-1">
+            <Navbar.Link href="/#">
+              Free trial
+            </Navbar.Link>
+          </div>
+        </Navbar.Collapse>
+      </Navbar>
     </div>
   );
 };
