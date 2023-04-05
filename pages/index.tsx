@@ -9,7 +9,7 @@ const Page = () => {
       <div>
         <div className="flex flex-col items-center px-6 lg:px-12">
           <div className="flex flex-col items-center w-screen">
-            <div className="h-36 md:h-36" />
+            <div className="h-24 md:h-36" />
             <div className="font-bold text-3xl md:text-6xl lg:text-7xl">Build your <span className="text-[#10A42A]">Blog</span></div>
             <div className="font-bold text-3xl md:text-6xl lg:text-7xl -mt-4 md:-mt-8">on your own Website</div>
             <div className="h-3" />
@@ -26,15 +26,15 @@ const Page = () => {
             <div className="flex gap-4 md:gap-8 lg:gap-10">
               <div className="flex items-center">
                 <CustomImage src="/images/check.png" className="w-3 sm:w-4 h-2 sm:h-3  mr-1 sm:mr-2 mb-[1px]" />
-                <span className="font-semibold text-xs sm:text-tiny text-[#4a4a4a]"> 1 Minute</span>
+                <span className="text-xs sm:text-tiny text-[#4a4a4a]"> 1 Minute</span>
               </div>
               <div className="flex items-center">
                 <CustomImage src="/images/check.png" className="w-3 sm:w-4 h-2 sm:h-3 mr-1 sm:mr-2 mb-[1px]" />
-                <span className="font-semibold text-xs sm:text-tiny text-[#4a4a4a]"> No credit card required</span>
+                <span className="text-xs sm:text-tiny text-[#4a4a4a]"> No credit card required</span>
               </div>
               <div className="flex items-center">
                 <CustomImage src="/images/check.png" className="w-3 sm:w-4 h-2 sm:h-3 mr-1 sm:mr-2 mb-[1px]" />
-              <span className="font-semibold text-xs sm:text-tiny text-[#4a4a4a]"> Hassle-free</span>
+              <span className="text-xs sm:text-tiny text-[#4a4a4a]"> Hassle-free</span>
               </div>
             </div>
             <div className="h-14 sm:h-16" />
