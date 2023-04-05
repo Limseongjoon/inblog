@@ -43,7 +43,9 @@ const Page = () => {
             <div className="h-24 md:h-14 lg:h-48" />
             <CustomImage src="/images/blogexample.png" className="w-11/12 md:w-5/6 lg:w-5/6" />
           </div>
-          <div className="h-24 sm:h-72" />
+          <div className="-mt-48 h-48 w-full box-content bg-gradient-to-t from-white z-3" />
+          <div className="-mt-48 h-48 w-full box-content bg-gradient-to-t from-white z-3" />
+          <div className="h-10 sm:h-36" />
           <div className="lg:px-48">
             <div className="self-start">   
               <div className="relative flex py-5 items-center">
