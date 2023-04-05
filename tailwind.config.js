@@ -11,7 +11,6 @@ module.exports = {
   theme: {
     extend: {fontFamily: {
       SourceSerifPro: ["Source Serif Pro", "serif"],
-      Montserrat: ["Montserrat", "sans-serif"],
     }},
     fontSize: {
       '2xs': '.625rem',
