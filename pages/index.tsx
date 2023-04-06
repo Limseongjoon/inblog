@@ -10,13 +10,13 @@ const Page = () => {
       <div className="bg-white text-black">
         <div className="flex flex-col items-center px-6 lg:px-12 text-black">
           <div className="flex flex-col items-center w-screen">
-            <div className="h-24 md:h-36" />
-            <div className="font-bold text-2xl md:text-6xl lg:text-7xl tracking-tight sm:tracking-normal whitespace-nowrap">Build your <span className="text-[#10A42A]">blog in a minute</span></div>
-            <div className="font-bold text-2xl md:text-6xl lg:text-7xl tracking-tight sm:tracking-normal -mt-2 md:-mt-8 whitespace-nowrap">Lead customers to a purchase</div>
+            <div className="h-16 md:h-36" />
+            <div className="font-bold text-2xl md:text-5xl lg:text-7xl tracking-tight sm:tracking-normal whitespace-nowrap">Build your <span className="text-[#10A42A]">blog in a minute</span></div>
+            <div className="font-bold text-2xl md:text-5xl lg:text-7xl tracking-tight sm:tracking-normal -mt-2 md:-mt-8 whitespace-nowrap">Lead customers to a purchase</div>
             <div className="h-2" />
-            <div className="text-tiny md:text-xl lg:text-2xl text-center tracking-tight sm:tracking-normal leading-snug sm:leading-none">Inblog provides you SEO-friendly blog<br></br>
-            infrastructure and CTA button for conversion</div>
-            <div className="h-8 sm:h-14"></div>
+            <div className="text-tiny md:text-xl lg:text-2xl text-center tracking-tight sm:tracking-normal leading-snug sm:leading-none">Provides you SEO-friendly blog infrastructure<br></br>
+            with CTA buttons for conversion</div>
+            <div className="h-12 sm:h-14"></div>
             <Link
               href="/#"
               className="text-tiny md:text-base lg:text-xl font-semibold sm:font-normal text-white bg-black px-8 sm:px-10 py-2 rounded-full"
