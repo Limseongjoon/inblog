@@ -7,28 +7,23 @@ const Header = () => {
       <Navbar
         fluid={false}
         rounded={false}>
-        <Navbar.Brand href="/#">
-          <CustomImage src="/images/inblog_logo.png" className="h-7 lg:h-9 ml-3 w-auto" />
+          <Navbar.Brand href="/#">
+          <CustomImage src="/images/inblog_logo.png" className="h-7 lg:h-8 ml-3 w-auto" />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <div className="py-1 w-screen">
             <Navbar.Link href="/contact">
               Contact
             </Navbar.Link>
-          </div>
-          <div className="py-1 w-screen">
             <Navbar.Link href="/#">
               LogIn
             </Navbar.Link>
-          </div>
-          <div className="py-1 w-screen">
-            <Navbar.Link href="/#">
+            <Navbar.Link href="/#" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-[#ff4b93] md:p-0 dark:text-white md:dark:text-[#ff4b93]">
               Free-Trial
             </Navbar.Link>
-          </div>
         </Navbar.Collapse>
       </Navbar>
+
     </div>
   );
 };
