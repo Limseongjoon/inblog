@@ -8,7 +8,7 @@ const Header = () => {
         fluid={false}
         rounded={false}>
         <Navbar.Brand href="/#">
-          <CustomImage src="/images/inblog_logo.png" className="h-8 lg:h-9 ml-3 w-auto" />
+          <CustomImage src="/images/inblog_logo.png" className="h-7 lg:h-9 ml-3 w-auto" />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
