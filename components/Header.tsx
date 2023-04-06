@@ -10,7 +10,7 @@ const Header = () => {
           <Navbar.Brand href="/#">
           <CustomImage src="/images/inblog_logo.png" className="h-7 lg:h-8 ml-3 w-auto" />
         </Navbar.Brand>
-        <Navbar.Toggle className="hover:bg-transparent focus:outline-none focus:ring-0 focus:bg-transparent" />
+        <Navbar.Toggle className="hover:outline-none hover:ring-0 hover:bg-transparent focus:outline-none focus:ring-0 focus:bg-transparent" />
         <Navbar.Collapse>
             <Navbar.Link href="/contact" className="md:hover:text-[#10A42A]">
               Contact
