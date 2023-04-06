@@ -51,7 +51,7 @@ const Page = () => {
                 <div className="flex-grow border-t border-gray-300"></div>
               </div>
               <div className="h-4 sm:h-10" />
-              <div className="text-3xl lg:text-4xl font-Montserrat">Building blog a Must?</div>
+              <div className="font-semibold text-3xl lg:text-4xl font-Montserrat">Building blog a Must?</div>
               <div className="h-4" />
               <div className="text-gray-400 font-light leading-snug sm:leading-none">Expensive paid marketing and the discontinuation of third-party cookie support by Google make organic user acquisition increasingly important. Companies are turning to their own blogs and content, as well as SEO, to secure and convert users.</div>
             </div>
@@ -116,7 +116,7 @@ const Page = () => {
                 <div className="flex-grow border-t border-gray-300"></div>
               </div>
               <div className="h-6 sm:h-10" />
-              <div className="text-3xl lg:text-4xl leading-tight sm:leading-none">However, building a blog can be challenging</div>
+              <div className="font-semibold text-3xl lg:text-4xl leading-tight sm:leading-none">However, building a blog can be challenging</div>
               <div className="h-4" />
               <div className="text-gray-400 font-light leading-snug sm:leading-none">You need to build an SEO-optimized blog and content, and insert CTA buttons for user conversion. You are not a blog builder. Do not waste your precious time.</div>
               <div className="h-6" />
