@@ -141,11 +141,11 @@ const Page = () => {
                   </div>
               </div>
             </div> 
-            <div className="h-16 sm:h-72" />
+            <div className="h-24 sm:h-72" />
             <div className="font-bold text-3xl md:text-3xl lg:text-5xl text-center leading-tight sm:leading-none"><span className="text-[#ff4b93]">Inblog</span> provides you<br className="flex sm:hidden"></br>&nbsp;a&nbsp;<span className="text-[#10A42A]">perfect blog</span></div>
-            <div className="h-16 sm:h-48" />
+            <div className="h-24 sm:h-48" />
             <div className="flex flex-col lg:flex-row w-full">
-              <div className="w-full rounded-md text-black px-12 md:px-14 py-8">
+              <div className="w-full rounded-md text-black sm:px-12 md:px-14 py-8">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">1</div>
               <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Link blog directly<br></br>to your website</div>
@@ -156,7 +156,7 @@ const Page = () => {
                 <CustomImage src="/images/feature_1.png" className="w-full h-auto" />
               </div>
             </div>
-            <div className="h-24 sm:h-36" />
+            <div className="h-28 sm:h-36" />
             <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-24">
             <div className="w-full rounded-md text-black">
                 <CustomImage src="/images/feature_2.png" className="w-full h-auto" />
@@ -183,7 +183,7 @@ const Page = () => {
             </div>
             <div className="h-24 sm:h-36" />
             <div className="flex flex-col lg:flex-row w-full items-center">
-              <div className="w-full rounded-md text-black px-12 md:px-14 py-8">
+              <div className="w-full rounded-md text-black sm:px-12 md:px-14 py-8">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">3</div>
               <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Guides to write<br></br>SEO-friendly posts</div>
@@ -194,14 +194,14 @@ const Page = () => {
                 <CustomImage src="/images/feature_3.png" className="w-full h-auto" />
               </div>
             </div>
-            <div className="h-24 sm:h-36" />
+            <div className="h-28 sm:h-36" />
             <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-12 sm:gap-24">
             <div className="w-full rounded-md text-black px-6">
                 <CustomImage src="/images/feature_4.png" className="w-full h-auto" />
               </div>
               <div className="w-full rounded-md text-black">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">4</div>
-              <div className="h-4" />
+              <div className="h-3" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">CTA for more leads</div>
                 <div className="h-4" />
                 <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Inblog provides you CTA buttons for each content.</div>
@@ -221,7 +221,7 @@ const Page = () => {
             </div>
             <div className="h-24 sm:h-36" />
             <div className="flex flex-col lg:flex-row w-full items-center">
-              <div className="w-full rounded-md text-black px-12 md:px-14 py-8">
+              <div className="w-full rounded-md text-black smpx-12 md:px-14 py-8">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">5</div>
               <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Business analytics</div>
