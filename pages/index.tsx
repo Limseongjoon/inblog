@@ -12,7 +12,7 @@ const Page = () => {
           <div className="flex flex-col items-center w-screen">
             <div className="h-16 md:h-36" />
             <div className="font-bold text-2xl md:text-5xl lg:text-7xl tracking-tight sm:tracking-normal whitespace-nowrap">Build your <span className="text-[#10A42A]">blog in a minute</span></div>
-            <div className="font-bold text-2xl md:text-5xl lg:text-7xl tracking-tight sm:tracking-normal -mt-2 md:-mt-8 whitespace-nowrap">Lead customers to a purchase</div>
+            <div className="font-bold text-2xl md:text-5xl lg:text-7xl tracking-tight sm:tracking-normal -mt-2 md:-mt-8 whitespace-nowrap">Lead customers to <span className="text-[#ff4b93]">a purchase</span></div>
             <div className="h-2" />
             <div className="text-tiny md:text-xl lg:text-2xl text-center tracking-tight sm:tracking-normal leading-snug sm:leading-none">Provides you SEO-friendly blog infrastructure<br></br>
             with CTA buttons for conversion</div>
@@ -142,9 +142,9 @@ const Page = () => {
               </div>
             </div> 
             <div className="h-16 sm:h-72" />
-            <div className="font-bold text-3xl md:text-3xl lg:text-5xl text-center leading-tight sm:leading-none">Inblog provides you<br className="flex sm:hidden"></br>&nbsp;a&nbsp;<span className="text-[#10A42A]">perfect blog</span></div>
+            <div className="font-bold text-3xl md:text-3xl lg:text-5xl text-center leading-tight sm:leading-none"><span className="text-[#ff4b93]">Inblog</span> provides you<br className="flex sm:hidden"></br>&nbsp;a&nbsp;<span className="text-[#10A42A]">perfect blog</span></div>
             <div className="h-16 sm:h-48" />
-            <div className="flex flex-col lg:flex-row w-full items-center">
+            <div className="flex flex-col lg:flex-row w-full">
               <div className="w-full rounded-md text-black px-12 md:px-14 py-8">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">1</div>
               <div className="h-6 sm:h-4" />
