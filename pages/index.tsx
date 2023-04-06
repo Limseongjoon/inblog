@@ -142,7 +142,7 @@ const Page = () => {
               </div>
             </div> 
             <div className="h-16 sm:h-72" />
-            <div className="font-bold text-3xl md:text-3xl lg:text-5xl text-center leading-tight sm:leading-none">Inblog provides you<br className="flex sm:hidden"></br>a <span className="text-[#10A42A]">perfect blog</span></div>
+            <div className="font-bold text-3xl md:text-3xl lg:text-5xl text-center leading-tight sm:leading-none">Inblog provides you<br className="flex sm:hidden"></br>&nbsp;a&nbsp;<span className="text-[#10A42A]">perfect blog</span></div>
             <div className="h-16 sm:h-48" />
             <div className="flex flex-col lg:flex-row w-full items-center">
               <div className="w-full rounded-md text-black px-12 md:px-14 py-8">
