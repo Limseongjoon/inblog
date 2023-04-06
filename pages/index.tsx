@@ -178,7 +178,7 @@ const Page = () => {
               <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Embed a Notion post into your blog</div>
                 <div className="h-2 sm:h-4" />
-                <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Most of your post drafts are being written in Notion. Inblog then transfers those posts to your blog.</div>
+                <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">With Inblog, you can easily transfer all your posts from Notion. Just copy the link and paste it.</div>
               </div>
               <div className="w-full rounded-md text-black">
                 <CustomImage src="/images/feature_2.png" className="w-full h-auto" />
@@ -191,7 +191,7 @@ const Page = () => {
               <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Guide to write<br></br>SEO-friendly posts</div>
                 <div className="h-2 sm:h-4" />
-                <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Technical SEO functions such as meta-tags, descriptions, H1 tags, H2 tags, and more.</div>
+                <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Technical SEO functions such as Meta-tags, Descriptions, H1 tags, H2 tags, and more.</div>
               </div>
               <div className="w-full rounded-md text-black">
                 <CustomImage src="/images/feature_3.png" className="w-full h-auto" />
@@ -242,9 +242,9 @@ const Page = () => {
           <div className="-mt-12 h-12 w-full box-content bg-gradient-to-t from-white z-3" />
           <div className="h-24 sm:h-64" />
           <div className="flex flex-col items-center w-screen">
-            <div className="font-semibold text-xl md:text-3xl lg:text-5xl text-center leading-snug lg:leading-none">Focus Your Energy on <br className="flex sm:hidden"></br>What Really Matters</div>
+            <div className="font-semibold text-xl md:text-3xl lg:text-5xl text-center leading-snug lg:leading-none">Focus your energy on <br className="flex sm:hidden"></br>what really matters</div>
             <div className="hidden lg:flex lg:h-4" />
-            <div className="font-semibold text-xl md:text-3xl lg:text-5xl leading-snug lg:leading-none">Let us Handle the Hassles</div>
+            <div className="font-semibold text-xl md:text-3xl lg:text-5xl leading-snug lg:leading-none">Let us handle the hassles</div>
             <div className="h-8 sm:h-16" />
             <Link
               href="/#"
