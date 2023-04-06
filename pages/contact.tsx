@@ -12,13 +12,17 @@ const Page = () => {
             Contact
           </div>
           <div className="h-4" />
-          <div className="hidden sm:flex text-center font-light md:text-lg leading-tight sm:leading-none text-gray-500">
-          Please feel free to contact me with any questions you may have.<br></br>
-          I will get back to you as soon as possible.
+          <div className="flex sm:hidden">
+            <div className="text-center font-light md:text-lg leading-tight sm:leading-snug">
+            Please feel free to contact me
+            <br></br>
+            with any questions you may have.
+            </div>
           </div>
-          <div className="sm:hidden text-center font-light md:text-lg leading-tight sm:leading-none text-gray-500">
-          Please feel free to contact me<br></br> with any questions you may have.<br></br>
-          I will get back to you as soon as possible.
+          <div className="hidden sm:flex">
+            <div className="text-center font-light md:text-lg leading-tight sm:leading-snug">
+            Please feel free to contact me with any questions.
+            </div>
           </div>
         <div className="h-6" />
         <div className="w-10/12 lg:w-2/3 xl:w-1/2 px-4 lg:px-16">
