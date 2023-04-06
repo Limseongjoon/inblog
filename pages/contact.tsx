@@ -13,14 +13,14 @@ const Page = () => {
           </div>
           <div className="h-4" />
           <div className="flex sm:hidden">
-            <div className="text-center font-light md:text-lg leading-tight sm:leading-snug">
+            <div className="text-center font-extralight md:text-lg leading-tight sm:leading-snug">
             Please feel free to contact me
             <br></br>
             with any questions you may have.
             </div>
           </div>
           <div className="hidden sm:flex">
-            <div className="text-center font-light md:text-lg leading-tight sm:leading-snug">
+            <div className="text-center font-extralight md:text-lg leading-tight sm:leading-snug">
             Please feel free to contact me with any questions.
             </div>
           </div>
