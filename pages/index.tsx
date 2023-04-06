@@ -159,19 +159,20 @@ const Page = () => {
               </div>
             </div>
             <div className="h-28 sm:h-36" />
-            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-24">
-            <div className="w-full rounded-md text-black">
-                <CustomImage src="/images/feature_2.png" className="w-full h-auto" />
-              </div>
+            <div className="flex sm:hidden flex-col lg:flex-row w-full items-center gap-24">
               <div className="w-full rounded-md text-black">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">2</div>
               <div className="h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">WYSIWIG Editor</div>
                 <div className="h-4" />
                 <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">What You See Is What You Get editor enables you to manipulate the content or layout without having to type any commands.</div>
+                <div className="w-full rounded-md text-black">
+                <div className="h-6 sm:h-4" />
+                <CustomImage src="/images/feature_2.png" className="w-full h-auto" />
+              </div>
               </div>
             </div>
-            <div className="flex sm:hidden flex-col lg:flex-row w-full items-center gap-12 sm:gap-24">
+            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-12 sm:gap-24">
               <div className="w-full rounded-md text-black">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">2</div>
               <div className="h-6 sm:h-4" />
@@ -197,19 +198,20 @@ const Page = () => {
               </div>
             </div>
             <div className="h-28 sm:h-36" />
-            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-12 sm:gap-24">
-            <div className="w-full rounded-md text-black px-6">
-                <CustomImage src="/images/feature_4.png" className="w-full h-auto" />
-              </div>
+            <div className="flex sm:hidden flex-col lg:flex-row w-full items-center gap-12 sm:gap-24">
               <div className="w-full rounded-md text-black">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">4</div>
               <div className="h-3" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">CTA for more leads</div>
                 <div className="h-4" />
                 <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Inblog provides you CTA buttons for each content.</div>
+                <div className="w-full rounded-md text-black">
+                <div className="h-6 sm:h-4" />
+                <CustomImage src="/images/feature_4.png" className="w-full h-auto" />
+              </div>
               </div>
             </div>
-            <div className="flex sm:hidden flex-col lg:flex-row w-full items-center gap-12">
+            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-12">
               <div className="w-full rounded-md text-black">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">4</div>
               <div className="h-6 sm:h-4" />
