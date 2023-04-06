@@ -14,7 +14,9 @@ const Page = () => {
             <div className="font-bold text-2xl md:text-5xl lg:text-7xl tracking-tight sm:tracking-normal whitespace-nowrap">Build your <span className="text-[#10A42A]">blog in a minute</span></div>
             <div className="font-bold text-2xl md:text-5xl lg:text-7xl tracking-tight sm:tracking-normal -mt-2 md:-mt-8 whitespace-nowrap">Lead customers to <span className="text-[#ff4b93]">a purchase</span></div>
             <div className="h-2" />
-            <div className="text-tiny md:text-xl lg:text-2xl text-center tracking-tight sm:tracking-normal leading-snug sm:leading-none">Provides you SEO-friendly blog infrastructure<br></br>
+            <div className="flex sm:hidden text-tiny md:text-xl lg:text-2xl text-center tracking-tight sm:tracking-normal leading-snug sm:leading-none">Provides you SEO-friendly blog infrastructure<br></br>
+            with CTA buttons for conversion</div>
+            <div className="hidden sm:flex text-tiny md:text-xl lg:text-2xl text-center tracking-tight sm:tracking-normal leading-snug">Provides you SEO-friendly blog infrastructure<br></br>
             with CTA buttons for conversion</div>
             <div className="h-12 sm:h-14"></div>
             <Link
@@ -53,7 +55,7 @@ const Page = () => {
               <div className="h-4 sm:h-10" />
               <div className="font-semibold text-3xl lg:text-4xl font-Montserrat">Building blog a Must?</div>
               <div className="h-4" />
-              <div className="text-gray-400 font-light leading-snug sm:leading-none">Expensive paid marketing and the discontinuation of third-party cookie support by Google make organic user acquisition increasingly important. Companies are turning to their own blogs and content, as well as SEO, to secure and convert users.</div>
+              <div className="md:w-7/12 text-gray-400 font-light leading-snug">Expensive paid marketing and the discontinuation of third-party cookie support by Google make organic user acquisition increasingly important. Companies are turning to their own blogs and content, as well as SEO, to secure and convert users.</div>
             </div>
             <div className="h-16" />
             <div className="flex flex-col gap-3 lg:flex-row lg:gap-4 w-full">
@@ -118,7 +120,7 @@ const Page = () => {
               <div className="h-6 sm:h-10" />
               <div className="font-semibold text-3xl lg:text-4xl leading-tight sm:leading-none">However, building a blog can be challenging</div>
               <div className="h-4" />
-              <div className="text-gray-400 font-light leading-snug sm:leading-none">You need to build an SEO-optimized blog and content, and insert CTA buttons for user conversion. You are not a blog builder. Do not waste your precious time.</div>
+              <div className="md:w-7/12 text-gray-400 font-light leading-snug sm:leading-none">You need to build an SEO-optimized blog and content, and insert CTA buttons for user conversion. You are not a blog builder. Do not waste your precious time.</div>
               <div className="h-6" />
               <div className="flex flex-col items-center lg:flex-row gap-16 lg:gap-36 w-full text-black px-4 py-20 justify-center">
                 <div className="flex flex-col gap-4">
@@ -133,7 +135,7 @@ const Page = () => {
                   </div>
                   <div className="text-sm font-semibold self-center text-center leading-snug sm:leading-none">Not Straight Forward<br></br>to Contents Marketing</div>
                 </div>
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-2 lg:gap-4">
                   <div className="w-64 md:w-72 h-auto">
                       <CustomImage src="/images/illustration_analytics.png" className="w-64 md:w-72 h-auto" />
                     </div>
@@ -211,9 +213,9 @@ const Page = () => {
               <div className="w-full rounded-md text-black">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">4</div>
               <div className="h-6 sm:h-4" />
-                <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">WYSIWIG Editor</div>
+                <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">CTA for more leads</div>
                 <div className="h-2 sm:h-4" />
-                <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">What You See Is What You Get editor enables you to manipulate the content or layout without having to type any commands.</div>
+                <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Inblog provides you CTA buttons for each content.</div>
               </div>
               <div className="w-full rounded-md text-black">
                 <CustomImage src="/images/feature_4.png" className="w-full h-auto" />
@@ -238,8 +240,9 @@ const Page = () => {
           <div className="-mt-12 h-12 w-full box-content bg-gradient-to-t from-white z-3" />
           <div className="h-32 sm:h-72" />
           <div className="flex flex-col items-center w-screen">
-            <div className="font-semibold text-xl md:text-3xl lg:text-5xl text-center leading-snug sm:leading-none">Focus Your Energy on<br className="flex sm:hidden"></br>What Really Matters</div>
-            <div className="font-semibold text-xl md:text-3xl lg:text-5xl leading-snug sm:leading-none">Let us Handle the Hassles</div>
+            <div className="font-semibold text-xl md:text-3xl lg:text-5xl text-center leading-snug lg:leading-none">Focus Your Energy on <br className="flex sm:hidden"></br>What Really Matters</div>
+            <div className="hidden lg:flex lg:h-4" />
+            <div className="font-semibold text-xl md:text-3xl lg:text-5xl leading-snug lg:leading-none">Let us Handle the Hassles</div>
             <div className="h-8 sm:h-16" />
             <Link
               href="/#"
