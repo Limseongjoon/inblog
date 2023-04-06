@@ -16,10 +16,10 @@ const Header = () => {
               Contact
             </Navbar.Link>
             <Navbar.Link href="/#">
-              LogIn
+              Login
             </Navbar.Link>
-            <Navbar.Link href="/#" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-[#ff4b93] md:p-0 dark:text-white md:dark:text-[#ff4b93]">
-              Free-Trial
+            <Navbar.Link href="/#" className="block py-2 pl-3 pr-4 rounded md:bg-transparent md:text-[#ff4b93] md:p-0 dark:text-white md:dark:text-[#ff4b93]">
+              Free Trial
             </Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
