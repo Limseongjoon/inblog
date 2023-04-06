@@ -3,7 +3,6 @@ import { Navbar } from "flowbite-react";
 
 const Header = () => {
   return (
-    <div className="-mt-1 sm:mt-2">
       <Navbar
         fluid={false}
         rounded={false}>
@@ -23,8 +22,6 @@ const Header = () => {
             </Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
-
-    </div>
   );
 };
 

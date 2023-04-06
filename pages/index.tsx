@@ -5,9 +5,9 @@ import Footer from '../components/Footer';
 
 const Page = () => {
   return (
-    <div className="bg-white text-black">
+    <div className=" text-black">
       <Header />
-      <div className="bg-white text-black">
+      <div className=" text-black">
         <div className="flex flex-col items-center px-6 lg:px-12 text-black">
           <div className="flex flex-col items-center w-screen">
             <div className="h-16 md:h-36" />
@@ -240,7 +240,7 @@ const Page = () => {
             <CustomImage src="/images/analytics.png" className="w-screen lg:w-5/6" />
           <div className="-mt-12 h-12 w-full box-content bg-gradient-to-t from-white z-3" />
           <div className="-mt-12 h-12 w-full box-content bg-gradient-to-t from-white z-3" />
-          <div className="h-32 sm:h-72" />
+          <div className="h-24 sm:h-64" />
           <div className="flex flex-col items-center w-screen">
             <div className="font-semibold text-xl md:text-3xl lg:text-5xl text-center leading-snug lg:leading-none">Focus Your Energy on <br className="flex sm:hidden"></br>What Really Matters</div>
             <div className="hidden lg:flex lg:h-4" />
