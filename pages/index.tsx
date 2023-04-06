@@ -233,7 +233,7 @@ const Page = () => {
             </div>
           </div> 
           <div className="h-2 md:h-6 lg:h-12" />
-            <CustomImage src="/images/analytics.png" className="w-11/12 lg:w-5/6" />
+            <CustomImage src="/images/analytics.png" className="w-screen lg:w-5/6" />
           <div className="-mt-12 h-12 w-full box-content bg-gradient-to-t from-white z-3" />
           <div className="-mt-12 h-12 w-full box-content bg-gradient-to-t from-white z-3" />
           <div className="h-32 sm:h-72" />
@@ -245,7 +245,7 @@ const Page = () => {
               href="/#"
               className="text-tiny md:text-base lg:text-xl font-semibold sm:font-normal text-white bg-black px-8 sm:px-10 py-2 rounded-full"
               >
-              Create your blog in 1 minute
+              Start your inblog
             </Link>
           </div>
         </div>
