@@ -53,7 +53,7 @@ const Page = () => {
                 <div className="flex-grow border-t border-gray-300"></div>
               </div>
               <div className="h-4 sm:h-10" />
-              <div className="font-semibold text-3xl lg:text-4xl font-Montserrat">Building blog a Must?</div>
+              <div className="font-semibold text-3xl lg:text-4xl font-Montserrat">Is building blog a Must?</div>
               <div className="h-4" />
               <div className="md:w-7/12 text-gray-400 font-light leading-snug">Expensive paid marketing and the discontinuation of third-party cookie support by Google make organic user acquisition increasingly important. Companies are turning to their own blogs and content, as well as SEO, to secure and convert users.</div>
             </div>
@@ -152,7 +152,7 @@ const Page = () => {
               <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Link blog directly<br></br>to your website</div>
                 <div className="h-2 sm:h-4" />
-                <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Seamless integration with your existing blog in just one minute </div>
+                <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Seamless integration with your existing blog in just one minute.</div>
               </div>
               <div className="w-full rounded-md text-black">
                 <CustomImage src="/images/feature_1.png" className="w-full h-auto" />
@@ -176,9 +176,9 @@ const Page = () => {
               <div className="w-full rounded-md text-black">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">2</div>
               <div className="h-6 sm:h-4" />
-                <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">WYSIWIG Editor</div>
+                <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Embed a Notion post into your blog</div>
                 <div className="h-2 sm:h-4" />
-                <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">What You See Is What You Get editor enables you to manipulate the content or layout without having to type any commands.</div>
+                <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Most of your post drafts are being written in Notion. Inblog then transfers those posts to your blog.</div>
               </div>
               <div className="w-full rounded-md text-black">
                 <CustomImage src="/images/feature_2.png" className="w-full h-auto" />
@@ -189,7 +189,7 @@ const Page = () => {
               <div className="w-full rounded-md text-black sm:px-12 md:px-14 py-8">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">3</div>
               <div className="h-6 sm:h-4" />
-                <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Guides to write<br></br>SEO-friendly posts</div>
+                <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Guide to write<br></br>SEO-friendly posts</div>
                 <div className="h-2 sm:h-4" />
                 <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Technical SEO functions such as meta-tags, descriptions, H1 tags, H2 tags, and more.</div>
               </div>
@@ -230,7 +230,7 @@ const Page = () => {
               <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Business analytics</div>
                 <div className="h-2 sm:h-4" />
-                <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Analytics that require no additional setup.</div>
+                <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Analytics that require no additional setup. Inblog displays the most crucial metrics: Views, Conversion Rate, Referrers.</div>
               </div>
               <div className="w-full rounded-md text-black">
               </div>
