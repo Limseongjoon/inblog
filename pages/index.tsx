@@ -141,8 +141,8 @@ const Page = () => {
                   </div>
               </div>
             </div> 
-            <div className="h-36 sm:h-72" />
-            <div className="font-bold text-2xl md:text-3xl lg:text-5xl text-center leading-tight sm:leading-none">Inblog provides you<br className="flex sm:hidden"></br>a <span className="text-[#10A42A]">perfect blog</span></div>
+            <div className="h-16 sm:h-72" />
+            <div className="font-bold text-3xl md:text-3xl lg:text-5xl text-center leading-tight sm:leading-none">Inblog provides you<br className="flex sm:hidden"></br>a <span className="text-[#10A42A]">perfect blog</span></div>
             <div className="h-16 sm:h-48" />
             <div className="flex flex-col lg:flex-row w-full items-center">
               <div className="w-full rounded-md text-black px-12 md:px-14 py-8">
@@ -156,8 +156,8 @@ const Page = () => {
                 <CustomImage src="/images/feature_1.png" className="w-full h-auto" />
               </div>
             </div>
-            <div className="h-36" />
-            <div className="flex flex-col lg:flex-row w-full items-center gap-24">
+            <div className="h-24 sm:h-36" />
+            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-24">
             <div className="w-full rounded-md text-black">
                 <CustomImage src="/images/feature_2.png" className="w-full h-auto" />
               </div>
@@ -169,7 +169,19 @@ const Page = () => {
                 <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">What You See Is What You Get editor enables you to manipulate the content or layout without having to type any commands.</div>
               </div>
             </div>
-            <div className="h-36" />
+            <div className="flex sm:hidden flex-col lg:flex-row w-full items-center gap-24">
+              <div className="w-full rounded-md text-black">
+              <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">2</div>
+              <div className="h-4" />
+                <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">WYSIWIG Editor</div>
+                <div className="h-4" />
+                <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">What You See Is What You Get editor enables you to manipulate the content or layout without having to type any commands.</div>
+              </div>
+              <div className="w-full rounded-md text-black">
+                <CustomImage src="/images/feature_2.png" className="w-full h-auto" />
+              </div>
+            </div>
+            <div className="h-24 sm:h-36" />
             <div className="flex flex-col lg:flex-row w-full items-center">
               <div className="w-full rounded-md text-black px-12 md:px-14 py-8">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">3</div>
@@ -182,8 +194,8 @@ const Page = () => {
                 <CustomImage src="/images/feature_3.png" className="w-full h-auto" />
               </div>
             </div>
-            <div className="h-36" />
-            <div className="flex flex-col lg:flex-row w-full items-center gap-24">
+            <div className="h-24 sm:h-36" />
+            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-24">
             <div className="w-full rounded-md text-black px-6">
                 <CustomImage src="/images/feature_4.png" className="w-full h-auto" />
               </div>
@@ -195,7 +207,19 @@ const Page = () => {
                 <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Inblog provides you CTA buttons for each content.</div>
               </div>
             </div>
-            <div className="h-36" />
+            <div className="flex sm:hidden flex-col lg:flex-row w-full items-center gap-24">
+              <div className="w-full rounded-md text-black">
+              <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">4</div>
+              <div className="h-4" />
+                <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">WYSIWIG Editor</div>
+                <div className="h-4" />
+                <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">What You See Is What You Get editor enables you to manipulate the content or layout without having to type any commands.</div>
+              </div>
+              <div className="w-full rounded-md text-black">
+                <CustomImage src="/images/feature_4.png" className="w-full h-auto" />
+              </div>
+            </div>
+            <div className="h-24 sm:h-36" />
             <div className="flex flex-col lg:flex-row w-full items-center">
               <div className="w-full rounded-md text-black px-12 md:px-14 py-8">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">5</div>
@@ -210,9 +234,9 @@ const Page = () => {
           </div> 
           <div className="h-4 md:h-6 lg:h-12" />
             <CustomImage src="/images/analytics.png" className="w-11/12 lg:w-5/6" />
-          <div className="-mt-48 h-48 w-full box-content bg-gradient-to-t from-white z-3" />
-          <div className="-mt-48 h-48 w-full box-content bg-gradient-to-t from-white z-3" />
-          <div className="h-72" />
+          <div className="-mt-12 h-12 w-full box-content bg-gradient-to-t from-white z-3" />
+          <div className="-mt-12 h-12 w-full box-content bg-gradient-to-t from-white z-3" />
+          <div className="h-32 sm:h-72" />
           <div className="flex flex-col items-center w-screen">
             <div className="font-semibold text-xl md:text-3xl lg:text-5xl text-center leading-snug sm:leading-none">Focus Your Energy on<br className="flex sm:hidden"></br>What Really Matters</div>
             <div className="font-semibold text-xl md:text-3xl lg:text-5xl leading-snug sm:leading-none">Let us Handle the Hassles</div>
@@ -225,7 +249,7 @@ const Page = () => {
             </Link>
           </div>
         </div>
-        <div className="h-64" />
+        <div className="h-32 sm:h-64" />
         <Footer />
       </div>
     </div>
