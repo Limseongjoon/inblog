@@ -147,9 +147,9 @@ const Page = () => {
             <div className="flex flex-col lg:flex-row w-full items-center">
               <div className="w-full rounded-md text-black px-12 md:px-14 py-8">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">1</div>
-              <div className="h-4" />
+              <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Link blog directly<br></br>to your website</div>
-                <div className="h-4" />
+                <div className="h-2 sm:h-4" />
                 <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Seamless integration with your existing blog in just one minute </div>
               </div>
               <div className="w-full rounded-md text-black">
@@ -169,12 +169,12 @@ const Page = () => {
                 <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">What You See Is What You Get editor enables you to manipulate the content or layout without having to type any commands.</div>
               </div>
             </div>
-            <div className="flex sm:hidden flex-col lg:flex-row w-full items-center gap-24">
+            <div className="flex sm:hidden flex-col lg:flex-row w-full items-center gap-12 sm:gap-24">
               <div className="w-full rounded-md text-black">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">2</div>
-              <div className="h-4" />
+              <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">WYSIWIG Editor</div>
-                <div className="h-4" />
+                <div className="h-2 sm:h-4" />
                 <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">What You See Is What You Get editor enables you to manipulate the content or layout without having to type any commands.</div>
               </div>
               <div className="w-full rounded-md text-black">
@@ -185,9 +185,9 @@ const Page = () => {
             <div className="flex flex-col lg:flex-row w-full items-center">
               <div className="w-full rounded-md text-black px-12 md:px-14 py-8">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">3</div>
-              <div className="h-4" />
+              <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Guides to write<br></br>SEO-friendly posts</div>
-                <div className="h-4" />
+                <div className="h-2 sm:h-4" />
                 <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Technical SEO functions such as meta-tags, descriptions, H1 tags, H2 tags, and more.</div>
               </div>
               <div className="w-full rounded-md text-black">
@@ -195,7 +195,7 @@ const Page = () => {
               </div>
             </div>
             <div className="h-24 sm:h-36" />
-            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-24">
+            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-12 sm:gap-24">
             <div className="w-full rounded-md text-black px-6">
                 <CustomImage src="/images/feature_4.png" className="w-full h-auto" />
               </div>
@@ -207,12 +207,12 @@ const Page = () => {
                 <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Inblog provides you CTA buttons for each content.</div>
               </div>
             </div>
-            <div className="flex sm:hidden flex-col lg:flex-row w-full items-center gap-24">
+            <div className="flex sm:hidden flex-col lg:flex-row w-full items-center gap-12">
               <div className="w-full rounded-md text-black">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">4</div>
-              <div className="h-4" />
+              <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">WYSIWIG Editor</div>
-                <div className="h-4" />
+                <div className="h-2 sm:h-4" />
                 <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">What You See Is What You Get editor enables you to manipulate the content or layout without having to type any commands.</div>
               </div>
               <div className="w-full rounded-md text-black">
@@ -223,16 +223,16 @@ const Page = () => {
             <div className="flex flex-col lg:flex-row w-full items-center">
               <div className="w-full rounded-md text-black px-12 md:px-14 py-8">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">5</div>
-              <div className="h-4" />
+              <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Business analytics</div>
-                <div className="h-4" />
+                <div className="h-2 sm:h-4" />
                 <div className="text-gray-500 font-light w-10/12 leading-snug sm:leading-none">Analytics that require no additional setup.</div>
               </div>
               <div className="w-full rounded-md text-black">
               </div>
             </div>
           </div> 
-          <div className="h-4 md:h-6 lg:h-12" />
+          <div className="h-2 md:h-6 lg:h-12" />
             <CustomImage src="/images/analytics.png" className="w-11/12 lg:w-5/6" />
           <div className="-mt-12 h-12 w-full box-content bg-gradient-to-t from-white z-3" />
           <div className="-mt-12 h-12 w-full box-content bg-gradient-to-t from-white z-3" />
