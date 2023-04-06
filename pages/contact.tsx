@@ -3,9 +3,9 @@ import Footer from '../components/Footer';
 
 const Page = () => {
   return (
-    <div>
+    <div className="bg-white text-black">
       <Header />
-      <div className="h-2" />
+      <div className="bg-white text-black h-2" />
       <div className="flex flex-col h-screen items-center text-black">
         <div className="h-8 lg:h-24" />
           <div className="font-bold text-2xl lg:text-4xl">

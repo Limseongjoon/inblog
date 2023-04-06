@@ -5,9 +5,9 @@ import Footer from '../components/Footer';
 
 const Page = () => {
   return (
-    <div className=" text-black">
+    <div className="bg-white text-black">
       <Header />
-      <div className=" text-black">
+      <div className="bg-white text-black">
         <div className="flex flex-col items-center px-6 lg:px-12 text-black">
           <div className="flex flex-col items-center w-screen">
             <div className="h-16 md:h-36" />
