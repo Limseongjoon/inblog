@@ -24,7 +24,7 @@ const Page = () => {
         <div className="w-10/12 lg:w-2/3 xl:w-1/2 px-4 lg:px-16">
           <div className="lg:h-4"></div>
           <div className="flex flex-col w-full">
-            <div className="flex flex-col gap-3 lg:flex-row lg:gap-4 w-full">
+            <div className="flex flex-col gap-2 lg:flex-row lg:gap-4 w-full">
               <div className="w-full">
                 <div className="w-full rounded-md text-black px-2 py-2 border-black border-solid border-2">
                   <input
@@ -47,7 +47,7 @@ const Page = () => {
             </div>
           </div>
           <div className="w-full">
-          <div className="h-3 lg:h-4"></div>
+          <div className="h-2 lg:h-4"></div>
             <div className="w-full rounded-md text-black px-2 border-black border-solid border-2">
               <textarea
                 className="w-full h-32 placeholder:italic placeholder:text-black placeholder:font-light border-0 outline-0 font-medium text-5xs px-2 text-black"
@@ -56,7 +56,7 @@ const Page = () => {
               />
             </div>
           </div>
-          <div className="h-12"></div>
+          <div className="h-8"></div>
           <div className="self-center">
             <b
               className="font-normal text-tiny md:text-base lg:text-lg text-white bg-black px-8 py-2 rounded-full tracking-wide"
