@@ -16,7 +16,7 @@ const Footer = () => {
               <a href="https://www.freeprivacypolicy.com/live/80f4aeef-fc29-48ee-80e5-d6531bd2c4bf" className="mr-4 hover:underline md:mr-6">Privacy Policy</a>
             </li>
             <li>
-              <Link href="/">
+              <Link href="https://twitter.com/inblog_ai">
                 <CustomImage
                   src="/images/twitter_logo.png"
                   className="h-3 md:h-4 w-auto"
