@@ -10,7 +10,7 @@ const Page = () => {
       <div className="bg-white text-black">
         <div className="flex flex-col items-center px-6 lg:px-12 text-black">
           <div className="flex flex-col items-center w-screen">
-            <div className="h-16 md:h-36" />
+            <div className="h-16 md:h-32" />
             <div className="font-extrabold text-2xl md:text-5xl lg:text-6xl xl:text-7xl -tracking-normal sm:tracking-normal whitespace-nowrap">Build your <span className="text-[#10A42A]">blog in a minute</span></div>
             <div className="font-extrabold text-2xl md:text-5xl lg:text-6xl xl:text-7xl tracking-tight sm:tracking-normal -mt-2 md:-mt-5 lg:-mt-8 whitespace-nowrap">Lead customers to <span className="text-[#ff4b93]">a purchase</span></div>
             <div className="h-2" />
@@ -62,7 +62,7 @@ const Page = () => {
               <div className="w-full rounded-md text-black px-8 md:px-14 py-5 sm:py-8 border-gray-200 border-solid border-2 shadow-md bg-white">
                 <div className="font-SourceSerifPro text-2xl md:text-3xl lg:text-3xl">Gain More Leads</div>
                 <div className="h-4" />
-                <div className="text-gray-500 font-light leading-snug sm:leading-none">B2B marketers running a blog gain 67% more leads than those who do not run a business blog.</div>
+                <div className="text-gray-500 font-light leading-snug">B2B marketers running a blog gain 67% more leads than those who do not run a business blog.</div>
                 <div className="h-4" />
                 <Link
                 href="https://optinmonster.com/blogging-statistics/#:~:text=77%25%20of%20internet%20users%20read,than%20they%20do%20on%20email"
@@ -74,7 +74,7 @@ const Page = () => {
               <div className="w-full rounded-md text-black px-8 md:px-14 py-5 sm:py-8 border-gray-200 border-solid border-2 shadow-md bg-white">
                 <div className="font-SourceSerifPro text-2xl md:text-3xl lg:text-3xl">Higher Close Rate</div>
                 <div className="h-4" />
-                <div className="text-gray-500 font-light leading-snug sm:leading-none">SEO leads have a 14.6% close rate compared to only 1.7% for outbound leads.</div>
+                <div className="text-gray-500 font-light leading-snug">SEO leads have a 14.6% close rate compared to only 1.7% for outbound leads.</div>
                 <div className="h-4" />
                 <Link
                 href="https://optinmonster.com/blogging-statistics/#:~:text=77%25%20of%20internet%20users%20read,than%20they%20do%20on%20email"
@@ -89,7 +89,7 @@ const Page = () => {
             <div className="w-full rounded-md text-black px-8 md:px-14 py-5 sm:py-8 border-gray-200 border-solid border-2 shadow-md bg-white">
                 <div className="font-SourceSerifPro text-2xl md:text-3xl lg:text-3xl">Higher Organic CTR</div>
                 <div className="h-4" />
-                <div className="text-gray-500 font-light leading-snug sm:leading-none">Organic search offers higher click-through rates than paid search ads. (27.6% CTR for organic vs 3.17% CTR for paid)</div>
+                <div className="text-gray-500 font-light leading-snug">Organic search offers higher click-through rates than paid search ads. (27.6% CTR for organic vs 3.17% CTR for paid)</div>
                 <div className="h-4" />
                 <Link
                 href="https://backlinko.com/google-ctr-stats"
@@ -101,7 +101,7 @@ const Page = () => {
               <div className="w-full rounded-md text-black px-8 md:px-14 py-5 sm:py-8 border-gray-200 border-solid border-2 shadow-md bg-white">
                 <div className="font-SourceSerifPro text-2xl md:text-3xl lg:text-3xl">Critical Sales Funnel</div>
                 <div className="h-4" />
-                <div className="text-gray-500 font-light leading-snug sm:leading-none">55% of B2B marketers consider articles as the most successful content for moving possible clients through the sales funnel.</div>
+                <div className="text-gray-500 font-light leading-snug">55% of B2B marketers consider articles as the most successful content for moving possible clients through the sales funnel.</div>
                 <div className="h-4" />
                 <Link
                 href="https://growthbadger.com/blog-stats/"
@@ -120,7 +120,7 @@ const Page = () => {
               <div className="h-6 sm:h-10" />
               <div className="font-semibold text-3xl lg:text-4xl leading-tight sm:leading-none">However, building a blog can be challenging</div>
               <div className="h-4" />
-              <div className="md:w-7/12 text-gray-400 font-light leading-snug sm:leading-none">You need to build an SEO-optimized blog and content, and insert CTA buttons for user conversion. You are not a blog builder. Do not waste your precious time.</div>
+              <div className="md:w-7/12 text-gray-400 font-light leading-snug">You need to build an SEO-optimized blog and content, and insert CTA buttons for user conversion. You are not a blog builder. Do not waste your precious time.</div>
               <div className="h-6" />
               <div className="flex flex-col items-center lg:flex-row gap-16 lg:gap-36 w-full text-black px-4 py-20 justify-center">
                 <div className="flex flex-col gap-4">
