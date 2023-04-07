@@ -253,8 +253,8 @@ const Page = () => {
           </div> 
           <div className="h-2 lg:h-12" />
             <CustomImage src="/images/analytics.png" className="w-screen lg:w-5/6" />
-          <div className="-mt-12 h-12 w-full box-content bg-gradient-to-t from-white z-3" />
-          <div className="-mt-12 h-12 w-full box-content bg-gradient-to-t from-white z-3" />
+          <div className="-mt-36 h-36 w-full box-content bg-gradient-to-t from-white z-3" />
+          <div className="-mt-36 h-36 w-full box-content bg-gradient-to-t from-white z-3" />
           <div className="h-24 sm:h-64" />
           <div className="flex flex-col items-center w-screen">
             <div className="font-semibold text-xl md:text-3xl lg:text-5xl text-center leading-snug lg:leading-none">Focus your energy on <br className="flex sm:hidden"></br>what really matters.</div>
