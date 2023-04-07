@@ -180,11 +180,11 @@ const Page = () => {
               </div>
               </div>
             </div>
-            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-12 lg:gap-24">
+            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-24 lg:gap-36">
               <div className="hidden lg:flex w-full rounded-md text-black">
                 <CustomImage src="/images/feature_2.png" className="w-full h-auto" />
               </div>
-              <div className="w-full rounded-md text-black sm:px-12 md:px-14">
+              <div className="w-full rounded-md text-black">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">2</div>
               <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight">Embed a Notion post<br></br>into your blog</div>
@@ -225,11 +225,11 @@ const Page = () => {
               </div>
               </div>
             </div>
-            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-6 lg:gap-24">
+            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-24 lg:gap-36">
             <div className="hidden lg:flex w-full rounded-md text-black z">
                 <CustomImage src="/images/feature_4.png" className="w-full h-auto" />
               </div>
-              <div className="w-full rounded-md text-black sm:px-12 md:px-14"> 
+              <div className="w-full rounded-md text-black"> 
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">4</div>
               <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">CTA for more leads</div>
