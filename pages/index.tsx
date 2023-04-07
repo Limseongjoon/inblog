@@ -150,9 +150,9 @@ const Page = () => {
               <div className="w-full rounded-md text-black sm:px-12 md:px-14 py-8">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">1</div>
               <div className="h-6 sm:h-4" />
-                <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Link blog directly<br></br>to your website</div>
+                <div className="text-2xl lg:text-3xl font-semibold leading-tight">Link blog directly<br></br>to your website</div>
                 <div className="h-2 sm:h-4" />
-                <div className="text-gray-400 font-light w-10/12 leading-snug sm:leading-snug sm:text-lg">Seamless integration with your existing blog in just one minute.</div>
+                <div className="text-gray-400 font-light w-8/12 leading-snug sm:leading-snug sm:text-lg">Seamless integration with your existing blog in just one minute.</div>
               </div>
               <div className="w-full rounded-md text-black">
                 <CustomImage src="/images/feature_1.png" className="w-full h-auto" />
@@ -161,11 +161,11 @@ const Page = () => {
             <div className="h-28 sm:h-36" />
             <div className="flex sm:hidden flex-col lg:flex-row w-full items-center gap-24">
               <div className="w-full rounded-md text-black">
-              <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">2</div>
+              <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A] py-3">2</div>
               <div className="h-4" />
-                <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">WYSIWIG Editor</div>
+                <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Embed a Notion post<br></br>into your blog</div>
                 <div className="h-4" />
-                <div className="text-gray-400 font-light w-10/12 leading-snug sm:leading-none">What You See Is What You Get editor enables you to manipulate the content or layout without having to type any commands.</div>
+                <div className="text-gray-400 font-light w-10/12 leading-snug sm:leading-none">With Inblog, you can easily transfer all your posts from Notion. Just copy the link and paste it.</div>
                 <div className="w-full rounded-md text-black">
                 <div className="h-6 sm:h-4" />
                 <CustomImage src="/images/feature_2.png" className="w-full h-auto" />
@@ -179,7 +179,7 @@ const Page = () => {
               <div className="w-full rounded-md text-black sm:px-12 md:px-14">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">2</div>
               <div className="h-6 sm:h-4" />
-                <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Embed a Notion post into your blog</div>
+                <div className="text-2xl lg:text-3xl font-semibold leading-tight">Embed a Notion post<br></br>into your blog</div>
                 <div className="h-2 sm:h-4" />
                 <div className="text-gray-400 font-light w-10/12 leading-snug sm:leading-snug  sm:text-lg">With Inblog, you can easily transfer all your posts from Notion. Just copy the link and paste it.</div>
               </div>
@@ -192,7 +192,7 @@ const Page = () => {
               <div className="w-full rounded-md text-black sm:px-12 md:px-14 py-8">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">3</div>
               <div className="h-6 sm:h-4" />
-                <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Guide to write<br></br>SEO-friendly posts</div>
+                <div className="text-2xl lg:text-3xl font-semibold leading-tight">Guide to write<br></br>SEO-friendly posts</div>
                 <div className="h-2 sm:h-4" />
                 <div className="text-gray-400 font-light w-10/12 leading-snug sm:leading-snug sm:text-lg">Technical SEO functions such as Meta-tags, Descriptions, H1 tags, H2 tags, and more.</div>
               </div>
@@ -206,7 +206,7 @@ const Page = () => {
                 <CustomImage src="/images/feature_4.png" className="w-full h-auto" />
               </div>
               <div className="w-full rounded-md text-black">
-              <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">4</div>
+              <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A] py-3">4</div>
               <div className="h-3" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">CTA for more leads</div>
                 <div className="h-2" />
