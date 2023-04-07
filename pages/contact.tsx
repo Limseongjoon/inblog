@@ -32,7 +32,7 @@ const Page = () => {
               <div className="w-full">
                 <div className="w-full rounded-md text-black px-2 py-2 border-black border-solid border-2">
                   <input
-                    className="w-full placeholder:italic placeholder:text-black placeholder:font-light border-0 outline-0 font-medium text-5xs px-2 text-black focus:outline-none"
+                    className="w-full placeholder:italic bg-white placeholder:text-black placeholder:font-light border-0 outline-0 font-medium text-5xs px-2 text-black"
                     placeholder="Full Name"
                     type="name"
                     name="name"
@@ -42,7 +42,7 @@ const Page = () => {
               <div className="w-full">
                 <div className="w-full rounded-md text-black px-2 border-black border-solid border-2">
                   <input
-                    className="w-full placeholder:italic placeholder:text-black placeholder:font-light border-0 outline-0 font-medium text-5xs px-2 text-black"
+                    className="w-full placeholder:italic bg-white placeholder:text-black placeholder:font-light border-0 outline-0 font-medium text-5xs px-2 text-black"
                     placeholder="Email Address"
                     type="email"
                     name="email"
@@ -54,7 +54,7 @@ const Page = () => {
           <div className="h-2 lg:h-4"></div>
             <div className="w-full rounded-md text-black px-2 border-black border-solid border-2">
               <textarea
-                className="w-full h-32 placeholder:italic placeholder:text-black placeholder:font-light border-0 outline-0 font-medium text-5xs px-2 text-black"
+                className="w-full h-32 placeholder:italic bg-white placeholder:text-black placeholder:font-light border-0 outline-0 font-medium text-5xs px-2 text-black"
                 placeholder="Write your message here"
                 name="message"
               />
