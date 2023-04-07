@@ -174,7 +174,9 @@ const Page = () => {
                 <div className="text-gray-400 font-light w-10/12 leading-snug sm:leading-none">With Inblog, you can easily transfer all your posts from Notion. Just copy the link and paste it.</div>
                 <div className="w-full rounded-md text-black">
                 <div className="h-6 sm:h-4" />
+                <div className="w-full">
                 <CustomImage src="/images/feature_2.png" className="w-full h-auto" />
+                </div>
               </div>
               </div>
             </div>
