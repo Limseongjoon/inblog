@@ -180,7 +180,7 @@ const Page = () => {
               </div>
               </div>
             </div>
-            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-24 lg:gap-36">
+            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-12 lg:gap-24">
               <div className="hidden lg:flex w-full rounded-md text-black">
                 <CustomImage src="/images/feature_2.png" className="w-full h-auto" />
               </div>
@@ -225,7 +225,7 @@ const Page = () => {
               </div>
               </div>
             </div>
-            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-24 lg:gap-36">
+            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-12 lg:gap-24">
             <div className="hidden lg:flex w-full rounded-md text-black z">
                 <CustomImage src="/images/feature_4.png" className="w-full h-auto" />
               </div>
