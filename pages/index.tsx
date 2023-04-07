@@ -15,14 +15,14 @@ const Page = () => {
               <div className="font-extrabold text-2xl md:text-5xl lg:text-6xl -tracking-normal sm:tracking-normal whitespace-nowrap">Build your <span className="text-[#10A42A]">blog in a minute</span></div>
               <div className="font-extrabold text-2xl md:text-5xl lg:text-6xl tracking-tight sm:tracking-normal -mt-2 md:-mt-5 lg:-mt-6 whitespace-nowrap">Leading customers to <span className="text-[#ff4b93]">a purchase</span></div>
             </div>
-            <div className="text-center md:hidden leading-tight">
+            <div className="text-center md:hidden leading-10">
               <div className="font-extrabold text-4xl tracking-tight whitespace-nowrap">Build your <span className="text-[#10A42A]">blog<br></br>in a minute</span></div>
               <div className="font-extrabold text-4xl tracking-tight whitespace-nowrap">Leading customers<br></br>to <span className="text-[#ff4b93] -mt-2 md:-mt-5 lg:-mt-8 ">a purchase</span></div>
             </div>
             <div className="h-4" />
             <div className="flex sm:hidden font-light text-tiny md:text-xl lg:text-2xl text-center tracking-tight leading-snug sm:leading-none">Provides you SEO-friendly blog infrastructure<br></br>
             with CTA buttons for conversion</div>
-            <div className="hidden font-light sm:flex text-tiny md:text-xl lg:text-2xl text-center tracking-tight sm:tracking-normal leading-snug">Provides you SEO-friendly blog infrastructure<br></br>
+            <div className="hidden font-light sm:flex text-tiny md:text-xl lg:text-2xl text-center tracking-tight sm:tracking-normal">Provides you SEO-friendly blog infrastructure<br></br>
             with CTA buttons for conversion</div>
             <div className="h-12 sm:h-14"></div>
             <Link
@@ -46,7 +46,7 @@ const Page = () => {
               <span className="text-xs sm:text-tiny text-[#4a4a4a]"> Hassle-free</span>
               </div>
             </div>
-            <div className="h-6 sm:h-14 sm:h-16" />
+            <div className="h-6 sm:h-14" />
             <CustomImage src="/images/searchconsole.gif" className="w-11/12 md:w-9/12 lg:w-2/3 xl:w-1/2" />
             <div className="h-16 lg:h-48" />
             <CustomImage src="/images/finallook.png" className="w-11/12 md:w-5/6 lg:w-5/6" />
