@@ -181,7 +181,7 @@ const Page = () => {
               </div>
             </div>
             <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-12 lg:gap-24">
-              <div className="hidden lg:flex w-screen rounded-md text-black">
+              <div className="hidden lg:flex w-full rounded-md text-black">
                 <CustomImage src="/images/feature_2.png" className="w-full h-auto" />
               </div>
               <div className="w-full rounded-md text-black">
