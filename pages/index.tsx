@@ -48,7 +48,7 @@ const Page = () => {
             </div>
             <div className="h-6 sm:h-14" />
             <CustomImage src="/images/searchconsole.gif" className="w-11/12 md:w-9/12 lg:w-2/3 xl:w-1/2" />
-            <div className="h-16 lg:h-48" />
+            <div className="h-16 lg:h-36" />
             <CustomImage src="/images/finallook.png" className="w-11/12 md:w-5/6 lg:w-5/6" />
           </div>
           <div className="h-24 sm:h-48" />
@@ -149,7 +149,7 @@ const Page = () => {
                   </div>
               </div>
             </div> 
-            <div className="h-24 sm:h-72" />
+            <div className="h-24 sm:h-36" />
             <div className="font-extrabold text-3xl md:text-3xl lg:text-5xl text-center leading-tight sm:leading-none"><span className="text-[#ff4b93]">Inblog</span> provides you<br className="flex sm:hidden"></br>&nbsp;a&nbsp;<span className="text-[#10A42A]">perfect blog</span></div>
             <div className="h-24 sm:h-48" />
             <div className="flex flex-col lg:flex-row w-full">
