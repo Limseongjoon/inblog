@@ -172,11 +172,11 @@ const Page = () => {
               </div>
               </div>
             </div>
-            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-12 sm:gap-24">
+            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-12 lg:gap-24">
               <div className="hidden lg:flex w-full rounded-md text-black">
                 <CustomImage src="/images/feature_2.png" className="w-full h-auto" />
               </div>
-              <div className="w-full rounded-md text-black">
+              <div className="w-full rounded-md text-black sm:px-12 md:px-14">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">2</div>
               <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Embed a Notion post into your blog</div>
@@ -217,11 +217,11 @@ const Page = () => {
               </div>
               </div>
             </div>
-            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-12 sm:gap-24">
-            <div className="hidden lg:flex w-full rounded-md text-black">
+            <div className="hidden sm:flex flex-col lg:flex-row w-full items-center gap-6 lg:gap-24">
+            <div className="hidden lg:flex w-full rounded-md text-black z">
                 <CustomImage src="/images/feature_4.png" className="w-full h-auto" />
               </div>
-              <div className="w-full rounded-md text-black">
+              <div className="w-full rounded-md text-black sm:px-12 md:px-14"> 
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">4</div>
               <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">CTA for more leads</div>
@@ -234,7 +234,7 @@ const Page = () => {
             </div>
             <div className="h-24 sm:h-36" />
             <div className="flex flex-col lg:flex-row w-full items-center">
-              <div className="w-full rounded-md text-black smpx-12 md:px-14 py-8">
+              <div className="w-full rounded-md text-black sm:px-12 md:px-14 py-8">
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A]">5</div>
               <div className="h-6 sm:h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Business analytics</div>
@@ -245,7 +245,7 @@ const Page = () => {
               </div>
             </div>
           </div> 
-          <div className="h-2 md:h-6 lg:h-12" />
+          <div className="h-2 lg:h-12" />
             <CustomImage src="/images/analytics.png" className="w-screen lg:w-5/6" />
           <div className="-mt-12 h-12 w-full box-content bg-gradient-to-t from-white z-3" />
           <div className="-mt-12 h-12 w-full box-content bg-gradient-to-t from-white z-3" />
