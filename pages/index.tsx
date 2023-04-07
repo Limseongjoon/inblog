@@ -150,7 +150,7 @@ const Page = () => {
               </div>
             </div> 
             <div className="h-24 sm:h-72" />
-            <div className="font-bold text-3xl md:text-3xl lg:text-5xl text-center leading-tight sm:leading-none"><span className="text-[#ff4b93]">Inblog</span> provides you<br className="flex sm:hidden"></br>&nbsp;a&nbsp;<span className="text-[#10A42A]">perfect blog</span></div>
+            <div className="font-extrabold text-3xl md:text-3xl lg:text-5xl text-center leading-tight sm:leading-none"><span className="text-[#ff4b93]">Inblog</span> provides you<br className="flex sm:hidden"></br>&nbsp;a&nbsp;<span className="text-[#10A42A]">perfect blog</span></div>
             <div className="h-24 sm:h-48" />
             <div className="flex flex-col lg:flex-row w-full">
               <div className="w-full rounded-md text-black sm:px-12 md:px-14 py-8">
