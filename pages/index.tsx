@@ -46,7 +46,7 @@ const Page = () => {
               <span className="text-xs sm:text-tiny text-[#4a4a4a]"> Hassle-free</span>
               </div>
             </div>
-            <div className="h-14 sm:h-16" />
+            <div className="h-6 sm:h-14 sm:h-16" />
             <CustomImage src="/images/searchconsole.gif" className="w-11/12 md:w-9/12 lg:w-2/3 xl:w-1/2" />
             <div className="h-16 lg:h-48" />
             <CustomImage src="/images/finallook.png" className="w-11/12 md:w-5/6 lg:w-5/6" />
