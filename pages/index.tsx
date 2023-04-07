@@ -16,11 +16,11 @@ const Page = () => {
               <div className="font-extrabold text-2xl md:text-5xl lg:text-6xl xl:text-7xl tracking-tight sm:tracking-normal -mt-2 md:-mt-5 lg:-mt-8 whitespace-nowrap">Lead customers to <span className="text-[#ff4b93]">a purchase</span></div>
             </div>
             <div className="text-center md:hidden leading-tight">
-              <div className="font-extrabold text-5xl -tracking-normal sm:tracking-normal whitespace-nowrap">Build your <span className="text-[#10A42A]">blog<br></br>in a minute</span></div>
-              <div className="font-extrabold text-5xl tracking-tight sm:tracking-normal whitespace-nowrap">Lead customers<br></br>to <span className="text-[#ff4b93] -mt-2 md:-mt-5 lg:-mt-8 ">a purchase</span></div>
+              <div className="font-extrabold text-4xl -tracking-normal sm:tracking-normal whitespace-nowrap">Build your <span className="text-[#10A42A]">blog<br></br>in a minute</span></div>
+              <div className="font-extrabold text-4xl tracking-tight sm:tracking-normal whitespace-nowrap">Lead customers<br></br>to <span className="text-[#ff4b93] -mt-2 md:-mt-5 lg:-mt-8 ">a purchase</span></div>
             </div>
             <div className="h-4" />
-            <div className="flex sm:hidden text-tiny md:text-xl lg:text-2xl text-center tracking-tight sm:tracking-normal leading-snug sm:leading-none">Provides you SEO-friendly blog infrastructure<br></br>
+            <div className="flex sm:hidden font-light text-tiny md:text-xl lg:text-2xl text-center tracking-tight leading-snug sm:leading-none">Provides you SEO-friendly blog infrastructure<br></br>
             with CTA buttons for conversion</div>
             <div className="hidden font-light sm:flex text-tiny md:text-xl lg:text-2xl text-center tracking-tight sm:tracking-normal leading-snug">Provides you SEO-friendly blog infrastructure<br></br>
             with CTA buttons for conversion</div>
