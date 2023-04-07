@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
         <div className="h-4 sm:hidden"></div>
         <div className="flex flex-row justify-between">
-        <ul className="flex flex-wrap items-center text-xs sm:text-sm font-medium text-white dark:text-gray-400">
+        <ul className="flex flex-wrap items-center text-xs sm:text-sm font-semibold sm:font-medium text-white dark:text-gray-400">
             <li>
               <a href="https://www.freeprivacypolicy.com/live/0082aab2-a8ea-437e-b0e8-8aafebc0514b" className="mr-4 hover:underline md:mr-6">Terms and Conditions</a>
             </li>
