@@ -164,7 +164,7 @@ const Page = () => {
               <div className="text-xl lg:text-3xl font-bold leading-tight text-[#10A42A] py-3">2</div>
               <div className="h-4" />
                 <div className="text-2xl lg:text-3xl font-semibold leading-tight sm:leading-none">Embed a Notion post<br></br>into your blog</div>
-                <div className="h-2" />
+                <div className="h-3" />
                 <div className="text-gray-400 font-light w-10/12 leading-snug sm:leading-none">With Inblog, you can easily transfer all your posts from Notion. Just copy the link and paste it.</div>
                 <div className="w-full rounded-md text-black">
                 <div className="h-6 sm:h-4" />
